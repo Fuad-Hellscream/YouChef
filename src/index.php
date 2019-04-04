@@ -1,7 +1,7 @@
-<?php 
+<?php
 
 
-  //include("php/server.php"); 
+  //include("php/server.php");
   include_once('php/loginserver.php');
 ?>
 
@@ -336,10 +336,9 @@
 				<div class="testimonial_slider owl-carousel">
 <!-- THE LOOP OF 8 REPRESENTS THE 8 SLIDES FOR THE SUGGESTION OR SEARCH. EACH SLIDE CONTAINS SIX ITEMS. -->
 					<?php for($i=1;$i<=8;$i++){ ?>
-                        <div class="media testimonial_item" style="background: url(image/.jpg)no-repeat fixed; border:none" >
+ <div class="media testimonial_item" style="background: url(image/.jpg)no-repeat fixed; border:none" >
                             <div class="media-body">
                                 <!-- body -->
-
 <!-- KEEP THE SEARCH IN MOST FAMILIAR TO LEAST FAMILIAR ORDER INSTEAD OF ONLY SHOWING THE EXACT SEARCHED ITEM TO KEEP THE NUMBER OF BLOCKS CONSISTENT AND THE FORMAT UNALTERED. -->
                                 <div class="container-wrap">
                                     <div class="row no-gutters d-flex">
@@ -349,10 +348,6 @@
                                                 <div class="text p-4">
                                                     <h3>Italian Pizza</h3>
                                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-                                                    <form action="">
-                                                      <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                                      <input type="radio" name="1" value="mild"> Mild
-                                                    </form>
                                                     <p class="price"><span>Tk2.90 </span>
                                                         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
                                                             data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
@@ -369,10 +364,6 @@
                                                 <div class="text p-4">
                                                     <h3>Greek Pizza</h3>
                                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <form action="">
-                                                      <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                                      <input type="radio" name="1" value="mild"> Mild
-                                                    </form>
                                                     <p class="price"><span>Tk2.90 </span>
                                                         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
                                                             data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
@@ -388,10 +379,6 @@
                                                 <div class="text p-4">
                                                     <h3>Caucasian Pizza</h3>
                                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <form action="">
-                                                      <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                                      <input type="radio" name="1" value="mild"> Mild
-                                                    </form>
                                                     <p class="price"><span>Tk2.90 </span>
                                                         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
                                                             data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
@@ -408,10 +395,6 @@
                                                 <div class="text p-4">
                                                     <h3>American Pizza</h3>
                                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-                                                    <form action="">
-                                                      <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                                      <input type="radio" name="1" value="mild"> Mild
-                                                    </form>
                                                     <p class="price"><span>Tk2.90 </span>
                                                         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
                                                             data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
@@ -427,10 +410,6 @@
                                                 <div class="text p-4">
                                                     <h3>Tomatoe Pie</h3>
                                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <form action="">
-                                                      <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                                      <input type="radio" name="1" value="mild"> Mild
-                                                    </form>
                                                     <p class="price"><span>Tk2.90 </span>
                                                         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
                                                             data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
@@ -446,10 +425,6 @@
                                                 <div class="text p-4">
                                                     <h3>Margherita</h3>
                                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <form action="">
-                                                      <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                                      <input type="radio" name="1" value="mild"> Mild
-                                                    </form>
                                                     <p class="price"><span>Tk2.90 </span>
                                                         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
                                                             data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
@@ -1117,128 +1092,146 @@
          </button>
        <!-- </div> -->
        <div class="modal-body order" >
-           <div id="booking" class="section">
-       		<div class="section-center">
-       			<div class="container">
-       				<div class="row">
-                        <img src="logo.png" class="avatar">
-       					<div class="booking-form">
-       						<div class="form-header">
-       							<h1><br>Recipe Details</h1>
-       						</div>
-       						<!-- <form >
-       							<div class="form-group">
-       								<span class="form-label">Phone</span>
-       								<input class="form-control" required="1" type="number" placeholder="Enter your phone number">
-       							</div>
+					<div class="container">
+						<div class="row">
+							<img src="logo.png" class="avatar">
+							<div class="booking-form">
+								<div class="form-header">
+									<h1><br>Recipe Details</h1>
+								</div>
 
-       							<div class="form-group">
-       								<span class="form-label">Delivery  Location</span>
-       								<input class="form-control" type="text" required="1" placeholder="Enter ZIP/Location">
-       							</div>
-       							<div class="row">
-       								<div class="col-sm-6">
-       									<div class="form-group">
-       										<span class="form-label">Delivery Date</span>
-       										<input class="form-control" type="date" required>
-       									</div>
-       								</div>
-       								<div class="col-sm-3">
-       									<div class="row">
-       										<div class="col-sm-12">
-       											<div class="form-group">
-       												<span class="form-label">Order for people</span>
-       												<select class="form-control" >
-       													<option style="color:#000">1</option>
-       													<option style="color:#000">2</option>
-       													<option style="color:#000">3</option>
-
-       												</select>
-       												<span class="select-arrow"></span>
-       											</div>
-       										</div>
-
-       									</div>
-       								</div>
-                                    <div class="col-sm-3">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="form-group">
-                                                    <span class="form-label">Quantity</span>
-                                                    <select class="form-control" >
-                                                        <option style="color:#000">1</option>
-                                                        <option style="color:#000">2</option>
-                                                        <option style="color:#000">3</option>
-                                                        <option style="color:#000">4</option>
-                                                        <option style="color:#000">5</option>
-                                                        <option style="color:#000">6</option>
-                                                        <option style="color:#000">7</option>
-                                                        <option style="color:#000">8</option>
-                                                        <option style="color:#000">9</option>
-                                                        <option style="color:#000">10</option>
-                                                    </select>
-                                                    <span class="select-arrow"></span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-       							</div>
-                                <span class="form-label">Payment  Option</span>
-                                <div class="form-group">
-
-                                    <div class="form-checkbox">
-                                        <div class="row">
-        									<label for="cash">
-        										<input checked type="radio" id="cash" name="payment">
-        										<span></span>Cash On Delivery
-        									</label>
-        									<label for="bkash">
-        										<input type="radio" id="bkash" name="payment">
-        										<span></span>BKash
-        									</label>
+							</div>
+						</div>
+					</div>
+			<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Italian Pizza</h2>
+					<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+					<p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				</div>
+			</div>
 
 
-                                        </div>
-
-                                        <div class="row">
-                                            <label for="dbbl">
-                                                <input  type="radio" id="dbbl" name="payment">
-                                                <span></span>DBBL Nexus
-                                            </label>
-                                            <label for="upay">
-                                                <input type="radio" id="upay" name="payment">
-                                                <span></span>Upay
-                                            </label>
-
-                                        </div>
-
-                                        <div class="row">
-                                            <label for="rocket">
-                                                <input  type="radio" id="rocket" name="payment">
-                                                <span></span>Rocket
-                                            </label>
-                                            <label for="master">
-                                                <input type="radio" id="master" name="payment">
-                                                <span></span>Master Card
-                                            </label>
-                                        </div>
+		<section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
-                                    </div>
+			<div class="row">
 
-    							</div>
+				<div class="cocol-lg-3 col-sm-6">
+					<div class="form-header">
+						<h1>Utensils<br></h1>
+					</div>
+
+					<table style="width:100%" class="table table-hover table-dark">
+						<thead>
+							<tr>
+							<th scope="col">Image</th>
+							<th scope="col">Name</th>
+							<th scope="col">Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<?php for($i=1;$i<=4;$i++){ ?>
+							<tr>
+							<td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
+							<td></td>
+							<td></td>
+							</tr>
+
+								<?php } ?>
+
+						</tbody>
+					</table>
 
 
-       							<div class="form-btn">
-       								<button class="submit-btn">Confirm order</button>
-       							</div>
-       						</form> -->
-       					</div>
-       				</div>
-       			</div>
-       		</div>
-       	</div>
+
+				</div>
+
+
+
+
+
+
+
+
+				<div class="cocol-lg-3 col-sm-6">
+					<div class="form-header">
+						<h1>Nutritions Values<br></h1>
+					</div>
+
+					<table style="width:100%" class="table table-hover table-dark">
+						<thead>
+							<tr>
+							<th scope="col">#</th>
+							<th scope="col">Nutritions</th>
+							<th scope="col">Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<?php for($i=1;$i<=8;$i++){ ?>
+							<tr>
+							<th scope="row"><?php echo $i ?></th>
+							<td></td>
+							<td></td>
+							</tr>
+
+								<?php } ?>
+
+						</tbody>
+					</table>
+
+
+
+				</div>
+
+
+
+
+			</div>
+
+
+		</section>
+
+
+        <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+			<div class="form-header">
+				<h1>Ingredients<br></h1>
+			</div>
+            <table style="width:100%" class="table table-hover table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Ingredients Name</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <?php for($i=1;$i<=8;$i++){ ?>
+                <tr>
+                  <th scope="row"><?php echo $i ?></th>
+                  <td>Italian Pizza</td>
+                  <td>2.5kg</td>
+                  <td>Tk.50</td>
+                </tr>
+
+					<?php } ?>
+
+				<tr>
+				<th scope="row"></th>
+				<td></td>
+				<td></td>
+				<td>Total = Tk.50</td>
+				</tr>
+
+              </tbody>
+            </table>
+
+
+        </section>
+
+
+
      </div>
 
 
@@ -1248,6 +1241,8 @@
        </div>
      </div>
   </div>
+
+
 
 
 
