@@ -89,8 +89,7 @@
 							<span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
 							<ul class="dropdown-menu">
 								<li class="active nav-item"><a class="active nav-link" href="readymeal.php">Ready Meals</a></li>
-								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Food Recipe</a></li>
-								<li class="nav-item"><a class="nav-link" href="ingredient.php">Ingredients</a></li>
+								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
 								<li class="nav-item"><a class="nav-link" href="ingredient.php">Restaurent</a></li>
 							</ul>
 						</li>
@@ -362,7 +361,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6">
 						<div class="facilities_item">
-							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Food Recipe</h4>
+							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Recipe With Ingredients</h4>
 							<p>We also offer to deliver food recipes and their ingredients so you can cook your own fresh meal and have fun learning!</p>
 						</div>
 					</div>

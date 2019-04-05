@@ -89,7 +89,6 @@
 							<ul class="dropdown-menu">
 								<li class=" nav-item"><a class=" nav-link" href="readymeal.php">Ready Meals</a></li>
 								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Food Recipe</a></li>
-								<li class="active nav-item"><a class="active nav-link" href="ingredient.php">Ingredients</a></li>
 								<li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
 							</ul>
 						</li>

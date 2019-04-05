@@ -88,8 +88,7 @@
 							<span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
 							<ul class="dropdown-menu">
 								<li class="nav-item"><a class="active nav-link" href="readymeal.php">Ready Meals</a></li>
-								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Food Recipe</a></li>
-								<li class="nav-item"><a class="nav-link" href="ingredient.php">Ingredients</a></li>
+								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
 								<li class="active nav-item"><a class="active nav-link" href="restaurant.php">Restaurent</a></li>
 							</ul>
 						</li>
@@ -534,9 +533,6 @@
             <nav class="navbar navbar-expand-lg " style="background: url(image/bg_4.jpg)no-repeat fixed;"  >
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto" >
-                        <!-- <li class="nav-item active"><a class="nav-link" href="#Food" >Food</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Recipe" style="color:white">Recipe</a></li>
-                        <li class="nav-item "><a class="nav-link" href="#Ingredients" style="color:white">Ingredients</a></li> -->
                         <li class="nav-item active"><a class="nav-link mt-auto mb-auto" href="#Restaurant" style="color:white">Choose Restaurant</a></li><br>
                         <select  class="mdb-select md-form mr-1  mt-auto mb-auto" searchable="Search here..">
                              <option value="" disabled selected>Filter Food</option>
@@ -935,7 +931,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6">
 						<div class="facilities_item">
-							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Food Recipe</h4>
+							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Recipe With Ingredients</h4>
 							<p>We also offer to deliver food recipes and their ingredients so you can cook your own fresh meal and have fun learning!</p>
 						</div>
 					</div>

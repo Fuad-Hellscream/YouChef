@@ -88,8 +88,7 @@
 							<span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
 							<ul class="dropdown-menu">
 								<li class=" nav-item"><a class="nav-link" href="readymeal.php">Ready Meals</a></li>
-								<li class="active nav-item"><a class="active nav-link" href="foodrecipe.php">Food Recipe</a></li>
-								<li class="nav-item"><a class="nav-link" href="ingredient.php">Ingredients</a></li>
+								<li class="active nav-item"><a class="active nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
 								<li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
 							</ul>
 						</li>
@@ -136,8 +135,8 @@
 					<div class="row slider-text justify-content-center align-items-center">
 
 						<div class="col-md-7 col-sm-12 text-center ftco-animate">
-							<h1 class="mb-3 mt-5 bread"><br><br><br>Food Recipe</h1>
-							<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span><span>/Food Recipe</span></p>
+							<h1 class="mb-3 mt-5 bread"><br><br><br>Recipe With Ingredients</h1>
+							<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span><span>/Recipe With Ingredients</span></p>
 						</div>
 
 					</div>
@@ -985,7 +984,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6">
 						<div class="facilities_item">
-							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Food Recipe</h4>
+							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Recipe With Ingredients</h4>
 							<p>We also offer to deliver food recipes and their ingredients so you can cook your own fresh meal and have fun learning!</p>
 						</div>
 					</div>
@@ -1114,152 +1113,172 @@
 			<!-- Modal HTML -->
 
 
-             <!-- bg modal for  order-->
-             <div class="modal fade" id="ordermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
-               <div class="modal-dialog modal-lg" role="document" >
-                 <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
-                   <!-- <div class="modal-header"> -->
-                     <h5 class="modal-title" id="exampleModalLabel"></h5>
-                     <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
-                       <span aria-hidden="true">&times;</span>
-                     </button>
-                   <!-- </div> -->
-                   <div class="modal-body order" >
-                       <div id="booking" class="section">
-                   		<div class="section-center">
-                   			<div class="container">
-                   				<div class="row">
-                                    <img src="logo.png" class="avatar">
-                   					<div class="booking-form">
-                   						<div class="form-header">
-                   							<h1><br>Recipe Details</h1>
-                   						</div>
-                   						<!-- <form >
-                   							<div class="form-group">
-                   								<span class="form-label">Phone</span>
-                   								<input class="form-control" required="1" type="number" placeholder="Enter your phone number">
-                   							</div>
+  <!-- bg modal for  Recepie Details-->
+ <div class="modal fade" id="ordermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
+   <div class="modal-dialog modal-lg" role="document" >
+     <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
+       <!-- <div class="modal-header"> -->
+         <h5 class="modal-title" id="exampleModalLabel"></h5>
+         <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       <!-- </div> -->
+       <div class="modal-body order" >
+					<div class="container">
+						<div class="row">
+							<img src="logo.png" class="avatar">
+							<div class="booking-form">
+								<div class="form-header">
+									<h1><br>Recipe Details</h1>
+								</div>
 
-                   							<div class="form-group">
-                   								<span class="form-label">Delivery  Location</span>
-                   								<input class="form-control" type="text" required="1" placeholder="Enter ZIP/Location">
-                   							</div>
-                   							<div class="row">
-                   								<div class="col-sm-6">
-                   									<div class="form-group">
-                   										<span class="form-label">Delivery Date</span>
-                   										<input class="form-control" type="date" required>
-                   									</div>
-                   								</div>
-                   								<div class="col-sm-3">
-                   									<div class="row">
-                   										<div class="col-sm-12">
-                   											<div class="form-group">
-                   												<span class="form-label">Order for people</span>
-                   												<select class="form-control" >
-                   													<option style="color:#000">1</option>
-                   													<option style="color:#000">2</option>
-                   													<option style="color:#000">3</option>
-
-                   												</select>
-                   												<span class="select-arrow"></span>
-                   											</div>
-                   										</div>
-
-                   									</div>
-                   								</div>
-                                                <div class="col-sm-3">
-                                                    <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <span class="form-label">Quantity</span>
-                                                                <select class="form-control" >
-                                                                    <option style="color:#000">1</option>
-                                                                    <option style="color:#000">2</option>
-                                                                    <option style="color:#000">3</option>
-                                                                    <option style="color:#000">4</option>
-                                                                    <option style="color:#000">5</option>
-                                                                    <option style="color:#000">6</option>
-                                                                    <option style="color:#000">7</option>
-                                                                    <option style="color:#000">8</option>
-                                                                    <option style="color:#000">9</option>
-                                                                    <option style="color:#000">10</option>
-                                                                </select>
-                                                                <span class="select-arrow"></span>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                   							</div>
-                                            <span class="form-label">Payment  Option</span>
-                                            <div class="form-group">
-
-                                                <div class="form-checkbox">
-                                                    <div class="row">
-                    									<label for="cash">
-                    										<input checked type="radio" id="cash" name="payment">
-                    										<span></span>Cash On Delivery
-                    									</label>
-                    									<label for="bkash">
-                    										<input type="radio" id="bkash" name="payment">
-                    										<span></span>BKash
-                    									</label>
+							</div>
+						</div>
+					</div>
+			<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h2 class="mb-4">Italian Pizza</h2>
+					<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+					<p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				</div>
+			</div>
 
 
-                                                    </div>
-
-                                                    <div class="row">
-                                                        <label for="dbbl">
-                                                            <input  type="radio" id="dbbl" name="payment">
-                                                            <span></span>DBBL Nexus
-                                                        </label>
-                                                        <label for="upay">
-                                                            <input type="radio" id="upay" name="payment">
-                                                            <span></span>Upay
-                                                        </label>
-
-                                                    </div>
-
-                                                    <div class="row">
-                                                        <label for="rocket">
-                                                            <input  type="radio" id="rocket" name="payment">
-                                                            <span></span>Rocket
-                                                        </label>
-                                                        <label for="master">
-                                                            <input type="radio" id="master" name="payment">
-                                                            <span></span>Master Card
-                                                        </label>
-                                                    </div>
+		<section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
-                                                </div>
+			<div class="row">
 
-                							</div>
+				<div class="cocol-lg-3 col-sm-6">
+					<div class="form-header">
+						<h1>Utensils<br></h1>
+					</div>
 
+					<table style="width:100%" class="table table-hover table-dark">
+						<thead>
+							<tr>
+							<th scope="col">Image</th>
+							<th scope="col">Name</th>
+							<th scope="col">Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<?php for($i=1;$i<=4;$i++){ ?>
+							<tr>
+							<td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
+							<td></td>
+							<td></td>
+							</tr>
 
-                   							<div class="form-btn">
-                   								<button class="submit-btn">Confirm order</button>
-                   							</div>
-                   						</form> -->
-                   					</div>
-                   				</div>
-                   			</div>
-                   		</div>
-                   	</div>
-                 </div>
+								<?php } ?>
 
-
-                </div>
-                   <div class="modal-footer">
-                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                   </div>
-                 </div>
-              </div>
+						</tbody>
+					</table>
 
 
 
-             <!-- end bg modal -->
+				</div>
+
+
+
+
+
+
+
+
+				<div class="cocol-lg-3 col-sm-6">
+					<div class="form-header">
+						<h1>Nutritions Values<br></h1>
+					</div>
+
+					<table style="width:100%" class="table table-hover table-dark">
+						<thead>
+							<tr>
+							<th scope="col">#</th>
+							<th scope="col">Nutritions</th>
+							<th scope="col">Value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<?php for($i=1;$i<=8;$i++){ ?>
+							<tr>
+							<th scope="row"><?php echo $i ?></th>
+							<td></td>
+							<td></td>
+							</tr>
+
+								<?php } ?>
+
+						</tbody>
+					</table>
+
+
+
+				</div>
+
+
+
+
+			</div>
+
+
+		</section>
+
+
+        <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+			<div class="form-header">
+				<h1>Ingredients<br></h1>
+			</div>
+            <table style="width:100%" class="table table-hover table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Image</th>
+                  <th scope="col">Ingredients Name</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <?php for($i=1;$i<=8;$i++){ ?>
+                <tr>
+                  <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
+                  <td>Italian Pizza</td>
+                  <td>2.5kg</td>
+                  <td>Tk.50</td>
+                </tr>
+
+					<?php } ?>
+
+				<tr>
+				<th scope="row"></th>
+				<td></td>
+				<td></td>
+				<td>Total = Tk.50</td>
+				</tr>
+
+              </tbody>
+            </table>
+
+
+        </section>
+
+
+
+     </div>
+
+
+    </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+       </div>
+     </div>
+  </div>
+
+
+
+
+
+ <!-- end bg modal -->
 
                 <!-- login bg-modal -->
                 <div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >

@@ -88,8 +88,7 @@
 							<span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
 							<ul class="dropdown-menu">
 								<li class="active nav-item"><a class="active nav-link" href="readymeal.php">Ready Meals</a></li>
-								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Food Recipe</a></li>
-								<li class="nav-item"><a class="nav-link" href="ingredient.php">Ingredients</a></li>
+								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
 								<li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
 							</ul>
 						</li>
@@ -949,7 +948,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6">
 						<div class="facilities_item">
-							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Food Recipe</h4>
+							<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Recipe With Ingredients</h4>
 							<p>We also offer to deliver food recipes and their ingredients so you can cook your own fresh meal and have fun learning!</p>
 						</div>
 					</div>
@@ -1078,152 +1077,7 @@
 			<!-- Modal HTML -->
 
 
-			<!-- bg modal for  order-->
-			<div class="modal fade" id="ordermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
-				<div class="modal-dialog modal-lg" role="document" >
-					<div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
-						<!-- <div class="modal-header"> -->
-							<h5 class="modal-title" id="exampleModalLabel"></h5>
-							<button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-							<!-- </div> -->
-							<div class="modal-body order" >
-								<div id="booking" class="section">
-									<div class="section-center">
-										<div class="container">
-											<div class="row">
-												<img src="logo.png" class="avatar">
-												<div class="booking-form">
-													<div class="form-header">
-														<h1><br>Place Your Order</h1>
-													</div>
-													<form >
-														<div class="form-group">
-															<span class="form-label">Phone</span>
-															<input class="form-control" required="1" type="number" placeholder="Enter your phone number">
-														</div>
 
-														<div class="form-group">
-															<span class="form-label">Delivery  Location</span>
-															<input class="form-control" type="text" required="1" placeholder="Enter ZIP/Location">
-														</div>
-														<div class="row">
-															<div class="col-sm-6">
-																<div class="form-group">
-																	<span class="form-label">Delivery Date</span>
-																	<input class="form-control" type="date" required>
-																</div>
-															</div>
-															<div class="col-sm-3">
-																<div class="row">
-																	<div class="col-sm-12">
-																		<div class="form-group">
-																			<span class="form-label">Order for people</span>
-																			<select class="form-control" >
-																				<option style="color:#000">1</option>
-																				<option style="color:#000">2</option>
-																				<option style="color:#000">3</option>
-
-																			</select>
-																			<span class="select-arrow"></span>
-																		</div>
-																	</div>
-
-																</div>
-															</div>
-															<div class="col-sm-3">
-																<div class="row">
-																	<div class="col-sm-12">
-																		<div class="form-group">
-																			<span class="form-label">Quantity</span>
-																			<select class="form-control" >
-																				<option style="color:#000">1</option>
-																				<option style="color:#000">2</option>
-																				<option style="color:#000">3</option>
-																				<option style="color:#000">4</option>
-																				<option style="color:#000">5</option>
-																				<option style="color:#000">6</option>
-																				<option style="color:#000">7</option>
-																				<option style="color:#000">8</option>
-																				<option style="color:#000">9</option>
-																				<option style="color:#000">10</option>
-																			</select>
-																			<span class="select-arrow"></span>
-																		</div>
-																	</div>
-
-																</div>
-															</div>
-														</div>
-														<span class="form-label">Payment  Option</span>
-														<div class="form-group">
-
-															<div class="form-checkbox">
-																<div class="row">
-																	<label for="cash">
-																		<input checked type="radio" id="cash" name="payment">
-																		<span></span>Cash On Delivery
-																	</label>
-																	<label for="bkash">
-																		<input type="radio" id="bkash" name="payment">
-																		<span></span>BKash
-																	</label>
-
-
-																</div>
-
-																<div class="row">
-																	<label for="dbbl">
-																		<input  type="radio" id="dbbl" name="payment">
-																		<span></span>DBBL Nexus
-																	</label>
-																	<label for="upay">
-																		<input type="radio" id="upay" name="payment">
-																		<span></span>Upay
-																	</label>
-
-																</div>
-
-																<div class="row">
-																	<label for="rocket">
-																		<input  type="radio" id="rocket" name="payment">
-																		<span></span>Rocket
-																	</label>
-																	<label for="master">
-																		<input type="radio" id="master" name="payment">
-																		<span></span>Master Card
-																	</label>
-																</div>
-
-
-															</div>
-
-														</div>
-
-
-														<div class="form-btn">
-															<button class="submit-btn">Confirm order</button>
-														</div>
-													</form>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-						</div>
-					</div>
-				</div>
-
-
-
-				<!-- end bg modal -->
 
                 <!-- login bg-modal -->
                 <div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >

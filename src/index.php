@@ -92,8 +92,7 @@
         							<span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
         							<ul class="dropdown-menu">
         								<li class="nav-item"><a class="nav-link" href="readymeal.php">Ready Meals</a></li>
-        								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Food Recipe</a></li>
-        								<li class="nav-item"><a class="nav-link" href="ingredient.php">Ingredients</a></li>
+        								<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
         								<li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
         							</ul>
         						</li>
@@ -315,7 +314,6 @@
 						<ul class="nav navbar-nav menu_nav ml-auto" >
 							<li class="nav-item active"><a class="nav-link" href="#Food" >Food</a></li>
 							<li class="nav-item"><a class="nav-link" href="#Recipe" style="color:white">Recipe</a></li>
-							<li class="nav-item "><a class="nav-link" href="#Ingredients" style="color:white">Ingredients</a></li>
 							<li class="nav-item"><a class="nav-link" href="#Restaurant" style="color:white">Restaurant</a></li>
                             <form class="form-inline ml-auto">
                                <div class="md-form my-0" style="color:black">
@@ -479,11 +477,10 @@
 						<ul class="nav navbar-nav menu_nav ml-auto" >
 							<li class="nav-item "><a class="nav-link" href="#Food"  style="color:white">Food</a></li>
 							<li class="nav-item active"><a class="nav-link" href="#Recipe" >Recipe</a></li>
-							<li class="nav-item "><a class="nav-link" href="#Ingredients" style="color:white">Ingredients</a></li>
 							<li class="nav-item"><a class="nav-link" href="#Restaurant" style="color:white">Restaurant</a></li>
                             <form class="form-inline ml-auto">
                                <div class="md-form my-0" style="color:black">
-                                 <input type="text" placeholder="Food Recipe Name">
+                                 <input type="text" placeholder="Recipe With Ingredients Name">
                                </div>
                                <button href="#" class="btn btn btn-info btn-md my-0 ml-sm-2" type="submit">Search</button>
                              </form>
@@ -497,7 +494,7 @@
 
                 <!-- <div class="container" > -->
 				<div class="section_title text-center" >
-					<h2 class="">Food Recipe </h2>
+					<h2 class="">Recipe With Ingredients </h2>
 					<p>We think sharing recipes is such an important part of baking and the baking world. </p>
 				</div>
                 <div class="testimonial_slider owl-carousel">
@@ -636,172 +633,6 @@
 			</section>
             <!-- Recipe setion end -->
 
-            <!--############################  Ingredients  section ################################# -->
-
-
-			<!-- back pic -->
-			<section id="home-getstarted2" class="text-center text-light" style="background: url(image/background/facilites_bg1.jpg)no-repeat fixed;">
-
-				<div class="dark-overlay">
-					<div class="container">
-						<div class="row py-5">
-							<div class="col">
-
-								<h2>Order Your Ingredients</h2>
-								<p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- back pic end -->
-            <section id="Ingredients" class="Rcp section_gap" style="background: url(image/bg_4.jpg)no-repeat fixed;">
-
-				<!-- <div class="container" style="width:100%" > -->
-				<nav class="navbar navbar-expand-lg " style="background: url(image/bg_4.jpg)no-repeat fixed;"  >
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto" >
-							<li class="nav-item "><a class="nav-link" href="#Food" style="color:white" >Food</a></li>
-							<li class="nav-item"><a class="nav-link" href="#Recipe" style="color:white">Recipe</a></li>
-							<li class="nav-item active"><a class="nav-link" href="#Ingredients" >Ingredients</a></li>
-							<li class="nav-item"><a class="nav-link" href="#Restaurant" style="color:white">Restaurant</a></li>
-                            <form class="form-inline ml-auto">
-                               <div class="md-form my-0" style="color:black">
-                                 <input type="text" placeholder=" Ingredient Name">
-                               </div>
-                               <button href="#" class="btn btn btn-info btn-md my-0 ml-sm-2" type="submit">Search</button>
-                             </form>
-						</ul>
-					</div>
-				</nav>
-				<!-- </div> -->
-
-
-
-
-                <!-- <div class="container"> -->
-				<div class="section_title text-center" >
-					<h2 class="">Raw Ingredients </h2>
-					<p>Simple ingredients prepared in a simple way - that's the best way to take your everyday cooking to a higher level. </p>
-				</div>
-                <div class="testimonial_slider owl-carousel">
-
-					<?php for($i=1;$i<=8;$i++){ ?>
-                        <div class="media testimonial_item" style="background: url(image/.jpg)no-repeat fixed; border:none" >
-                            <div class="media-body">
-                                <!-- body -->
-
-                                <div class="container-wrap">
-                                    <div class="row no-gutters d-flex">
-                                        <div class="col-lg-4 d-flex ftco-animate">
-                                            <div class="services-wrap d-flex">
-                                                <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
-                                                <div class="text p-4">
-                                                    <h3>Italian Pizza</h3>
-                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-                                                    <p class="price"><span>Tk2.90 </span>
-                                                        <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                            data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
-                                                            data-image="image/pizza-1.jpg" style="color:black">Add
-                                                        </button>
-
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 d-flex ftco-animate">
-                                            <div class="services-wrap d-flex">
-                                                <a  class="img" style="background-image: url(image/pizza-2.jpg);"></a>
-                                                <div class="text p-4">
-                                                    <h3>Greek Pizza</h3>
-                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <p class="price"><span>Tk2.90 </span>
-                                                        <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                            data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
-                                                            data-image="image/pizza-2.jpg" style="color:black">Add
-                                                        </button>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 d-flex ftco-animate">
-                                            <div class="services-wrap d-flex">
-                                                <a  class="img" style="background-image: url(image/pizza-3.jpg);"></a>
-                                                <div class="text p-4">
-                                                    <h3>Caucasian Pizza</h3>
-                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <p class="price"><span>Tk2.90 </span>
-                                                        <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                            data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
-                                                            data-image="image/pizza-3.jpg" style="color:black">Add
-                                                        </button>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 d-flex ftco-animate">
-                                            <div class="services-wrap d-flex">
-                                                <a  class="img order-lg-last" style="background-image: url(image/pizza-4.jpg);"></a>
-                                                <div class="text p-4">
-                                                    <h3>American Pizza</h3>
-                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-                                                    <p class="price"><span>Tk2.90 </span>
-                                                        <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                            data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
-                                                            data-image="image/pizza-4.jpg" style="color:black">Add
-                                                        </button>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 d-flex ftco-animate">
-                                            <div class="services-wrap d-flex">
-                                                <a class="img order-lg-last" style="background-image: url(image/pizza-5.jpg);"></a>
-                                                <div class="text p-4">
-                                                    <h3>Tomatoe Pie</h3>
-                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <p class="price"><span>Tk2.90 </span>
-                                                        <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                            data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
-                                                            data-image="image/pizza-5.jpg" style="color:black">Add
-                                                        </button>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 d-flex ftco-animate">
-                                            <div class="services-wrap d-flex">
-                                                <a class="img order-lg-last" style="background-image: url(image/pizza-6.jpg);"></a>
-                                                <div class="text p-4">
-                                                    <h3>Margherita</h3>
-                                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                                    <p class="price"><span>Tk2.90 </span>
-                                                        <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                            data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
-                                                            data-image="image/pizza-6.jpg" style="color:black">Add
-                                                        </button>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                        <!-- end body -->
-
-							</div>
-						</div>
-					<?php } ?>
-
-				</div>
-                <!-- </div> -->
-                <!-- </div> -->
-
-			</section>
-            <!-- Ingrident setion end -->
 
 
             <!--############################  Restaurant  section ################################# -->
@@ -829,7 +660,6 @@
 						<ul class="nav navbar-nav menu_nav ml-auto" >
 							<li class="nav-item "><a class="nav-link" href="#Food" style="color:white">Food</a></li>
 							<li class="nav-item"><a class="nav-link" href="#Recipe" style="color:white">Recipe</a></li>
-							<li class="nav-item "><a class="nav-link" href="#Ingredients" style="color:white">Ingredients</a></li>
 							<li class="nav-item active"><a class="nav-link" href="#Restaurant" >Restaurant</a></li>
                             <form class="form-inline ml-auto">
                                <div class="md-form my-0" style="color:black">
@@ -950,7 +780,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="facilities_item">
-						<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Food Recipe</h4>
+						<h4 class="sec_h4"><i class="fa fa-arrows-alt"></i>Recipe With Ingredients</h4>
 						<p>We also offer to deliver food recipes and their ingredients so you can cook your own fresh meal and have fun learning!</p>
 					</div>
 				</div>
@@ -1081,7 +911,7 @@
 <!-- Modal HTML -->
 
 
- <!-- bg modal for  order-->
+ <!-- bg modal for  Recepie Details-->
  <div class="modal fade" id="ordermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
    <div class="modal-dialog modal-lg" role="document" >
      <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
@@ -1105,24 +935,34 @@
 					</div>
 			<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
 				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h2 class="mb-4">Italian Pizza</h2>
+					<h2 class="mb-4" style="color:orange">Italian Pizza</h2>
 					<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
 					<p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 				</div>
+				
 			</div>
 
+			<section>
 
-		<section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+					<button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right;"
+						data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
+						data-image="image/pizza-1.jpg" style="color:black">Add
+					</button>
+
+
+			</section>
+	
+		 <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
 			<div class="row">
 
 				<div class="cocol-lg-3 col-sm-6">
 					<div class="form-header">
-						<h1>Utensils<br></h1>
+						<h1 style="color:orange">Utensils<br></h1>
 					</div>
 
-					<table style="width:100%" class="table table-hover table-dark">
+					<table style="width:100%" class="table table-hover table-dark table-responsive">
 						<thead>
 							<tr>
 							<th scope="col">Image</th>
@@ -1156,10 +996,10 @@
 
 				<div class="cocol-lg-3 col-sm-6">
 					<div class="form-header">
-						<h1>Nutritions Values<br></h1>
+						<h1 style="color:orange">Nutritions Values<br></h1>
 					</div>
 
-					<table style="width:100%" class="table table-hover table-dark">
+					<table style="width:100%" class="table table-hover table-dark table-responsive">
 						<thead>
 							<tr>
 							<th scope="col">#</th>
@@ -1195,12 +1035,12 @@
 
         <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 			<div class="form-header">
-				<h1>Ingredients<br></h1>
+				<h1 style="color:orange">Ingredients<br></h1>
 			</div>
-            <table style="width:100%" class="table table-hover table-dark">
+            <table style="width:100%" class="table table-hover table-dark table-responsive">
               <thead>
                 <tr>
-                  <th scope="col">#</th>
+                  <th scope="col">Image</th>
                   <th scope="col">Ingredients Name</th>
                   <th scope="col">Amount</th>
                   <th scope="col">Price</th>
@@ -1209,7 +1049,7 @@
               <tbody>
                   <?php for($i=1;$i<=8;$i++){ ?>
                 <tr>
-                  <th scope="row"><?php echo $i ?></th>
+                  <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
                   <td>Italian Pizza</td>
                   <td>2.5kg</td>
                   <td>Tk.50</td>
@@ -1230,7 +1070,10 @@
 
         </section>
 
-
+		<button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right;"
+			data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
+			data-image="image/pizza-1.jpg" style="color:black">Add
+		</button>
 
      </div>
 
