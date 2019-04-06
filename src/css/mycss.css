@@ -47,13 +47,13 @@ h1{
 
 .loginbox input[type="text"], input[type="password"]
 {
-    border: none;
+    /* border: none;
     border-bottom: 1px solid #000;
 
     outline: none;
     height: 40px;
     color: #000;
-    font-size: 16px;
+    font-size: 16px; */
 }
 .loginbox input[type="radio"]
 {

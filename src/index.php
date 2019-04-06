@@ -911,81 +911,71 @@
 <!-- Modal HTML -->
 
 
- <!-- bg modal for  Recepie Details-->
- <div class="modal fade" id="ordermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
-   <div class="modal-dialog modal-lg" role="document" >
-     <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
-       <!-- <div class="modal-header"> -->
-         <h5 class="modal-title" id="exampleModalLabel"></h5>
-         <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
-           <span aria-hidden="true">&times;</span>
-         </button>
-       <!-- </div> -->
-       <div class="modal-body order" >
-					<div class="container">
-						<div class="row">
-							<img src="logo.png" class="avatar">
-							<div class="booking-form">
-								<div class="form-header">
-									<h1><br>Recipe Details</h1>
-								</div>
+<!-- bg modal for  Recepie Details-->
+<div class="modal fade" id="ordermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
+ <div class="modal-dialog modal-lg" role="document" >
+   <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
+     <!-- <div class="modal-header"> -->
+       <h5 class="modal-title" id="exampleModalLabel"></h5>
+       <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     <!-- </div> -->
+     <div class="modal-body order" >
+                 <div class="container">
+                     <div class="row">
+                         <img src="logo.png" class="avatar">
+                         <div class="booking-form">
+                             <div class="form-header">
+                                 <h1><br>Recipe Details</h1>
+                             </div>
 
-							</div>
-						</div>
-					</div>
-			<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<h2 class="mb-4" style="color:orange">Italian Pizza</h2>
-					<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-					<p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-				
-			</div>
-
-			<section>
-
-					<button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right;"
-						data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
-						data-image="image/pizza-1.jpg" style="color:black">Add
-					</button>
+                         </div>
+                     </div>
+                 </div>
+         <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+             <div class="col-md-7 heading-section text-center ftco-animate">
+                 <h2 class="mb-4">Italian Pizza</h2>
+                 <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+                 <p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+             </div>
+         </div>
 
 
-			</section>
-	
-		 <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+     <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
-			<div class="row">
+         <div class="row">
 
-				<div class="cocol-lg-3 col-sm-6">
-					<div class="form-header">
-						<h1 style="color:orange">Utensils<br></h1>
-					</div>
+             <div class="cocol-lg-3 col-sm-6">
+                 <div class="form-header">
+                     <h1>Utensils<br></h1>
+                 </div>
 
-					<table style="width:100%" class="table table-hover table-dark table-responsive">
-						<thead>
-							<tr>
-							<th scope="col">Image</th>
-							<th scope="col">Name</th>
-							<th scope="col">Description</th>
-							</tr>
-						</thead>
-						<tbody>
-							<?php for($i=1;$i<=4;$i++){ ?>
-							<tr>
-							<td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
-							<td></td>
-							<td></td>
-							</tr>
+                 <table style="width:100%" class="table table-hover table-dark">
+                     <thead>
+                         <tr>
+                         <th scope="col">Image</th>
+                         <th scope="col">Name</th>
+                         <th scope="col">Description</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <?php for($i=1;$i<=4;$i++){ ?>
+                         <tr>
+                         <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
+                         <td></td>
+                         <td></td>
+                         </tr>
 
-								<?php } ?>
+                             <?php } ?>
 
-						</tbody>
-					</table>
+                     </tbody>
+                 </table>
 
 
 
-				</div>
+             </div>
 
 
 
@@ -994,102 +984,99 @@
 
 
 
-				<div class="cocol-lg-3 col-sm-6">
-					<div class="form-header">
-						<h1 style="color:orange">Nutritions Values<br></h1>
-					</div>
+             <div class="cocol-lg-3 col-sm-6">
+                 <div class="form-header">
+                     <h1>Nutritions Values<br></h1>
+                 </div>
 
-					<table style="width:100%" class="table table-hover table-dark table-responsive">
-						<thead>
-							<tr>
-							<th scope="col">#</th>
-							<th scope="col">Nutritions</th>
-							<th scope="col">Value</th>
-							</tr>
-						</thead>
-						<tbody>
-							<?php for($i=1;$i<=8;$i++){ ?>
-							<tr>
-							<th scope="row"><?php echo $i ?></th>
-							<td></td>
-							<td></td>
-							</tr>
+                 <table style="width:100%" class="table table-hover table-dark">
+                     <thead>
+                         <tr>
+                         <th scope="col">#</th>
+                         <th scope="col">Nutritions</th>
+                         <th scope="col">Value</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <?php for($i=1;$i<=8;$i++){ ?>
+                         <tr>
+                         <th scope="row"><?php echo $i ?></th>
+                         <td></td>
+                         <td></td>
+                         </tr>
 
-								<?php } ?>
+                             <?php } ?>
 
-						</tbody>
-					</table>
-
-
-
-				</div>
+                     </tbody>
+                 </table>
 
 
 
-
-			</div>
-
-
-		</section>
+             </div>
 
 
-        <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
-			<div class="form-header">
-				<h1 style="color:orange">Ingredients<br></h1>
-			</div>
-            <table style="width:100%" class="table table-hover table-dark table-responsive">
-              <thead>
-                <tr>
-                  <th scope="col">Image</th>
-                  <th scope="col">Ingredients Name</th>
-                  <th scope="col">Amount</th>
-                  <th scope="col">Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                  <?php for($i=1;$i<=8;$i++){ ?>
-                <tr>
-                  <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
-                  <td>Italian Pizza</td>
-                  <td>2.5kg</td>
-                  <td>Tk.50</td>
-                </tr>
-
-					<?php } ?>
-
-				<tr>
-				<th scope="row"></th>
-				<td></td>
-				<td></td>
-				<td>Total = Tk.50</td>
-				</tr>
-
-              </tbody>
-            </table>
 
 
-        </section>
-
-		<button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right;"
-			data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
-			data-image="image/pizza-1.jpg" style="color:black">Add
-		</button>
-
-     </div>
+         </div>
 
 
-    </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-       </div>
-     </div>
+     </section>
+
+
+      <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+         <div class="form-header">
+             <h1>Ingredients<br></h1>
+         </div>
+          <table style="width:100%" class="table table-hover table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Ingredients Name</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+                <?php for($i=1;$i<=8;$i++){ ?>
+              <tr>
+                <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
+                <td>Italian Pizza</td>
+                <td>2.5kg</td>
+                <td>Tk.50</td>
+              </tr>
+
+                 <?php } ?>
+
+             <tr>
+             <th scope="row"></th>
+             <td></td>
+             <td></td>
+             <td>Total = Tk.50</td>
+             </tr>
+
+            </tbody>
+          </table>
+
+
+      </section>
+
+
+
+   </div>
+
+
   </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+     </div>
+   </div>
+</div>
 
 
 
 
 
- <!-- end bg modal -->
+<!-- end bg modal -->
 
 <!-- login bg-modal -->
 <div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
