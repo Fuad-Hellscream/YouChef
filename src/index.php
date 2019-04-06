@@ -167,7 +167,7 @@
 
 						<div class="col-md-6 ftco-animate">
 
-							<img src="image/banner/bg_1.png" class="img-fluid mt-2" alt="">
+							<img src="image/banner/bg_1.png" class="img-fluid mt-4" alt="">
 
 						</div>
 
@@ -199,7 +199,7 @@
 
 						</div>
 						<div class="col-md-6 ftco-animate">
-							<img src="image/banner/bg_2.png" class="img-fluid" alt="">
+							<img src="image/banner/bg_2.png" class="img-fluid mt-4" alt="">
 						</div>
 
 					</div>
@@ -229,7 +229,7 @@
 
 						</div>
                         <div class="col-md-6 ftco-animate">
-							<img src="image/banner/bg_1.png" class="img-fluid" alt="">
+							<img src="image/banner/bg_1.png" class="img-fluid mt-4" alt="">
 						</div>
 					</div>
 				</div>
@@ -940,6 +940,10 @@
                  <p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
              </div>
          </div>
+         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right"
+             data-id="3" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+             data-image="image/banner/bg_1.png" style="color:black">Add
+         </button>
 
 
      <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
@@ -1059,7 +1063,10 @@
 
 
       </section>
-
+      <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right"
+          data-id="3" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+          data-image="image/banner/bg_1.png" style="color:black">Add
+      </button>
 
 
    </div>
