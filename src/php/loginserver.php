@@ -1,115 +1,55 @@
 <?php
-	
+    //TASK LIST:
+    //Gender variable does not work!
 	include_once ('server.php');
+	if (session_status() == PHP_SESSION_NONE) {
+        session_start();
+    }
 	
 	
 
 	
-	
-	global $prflid;
-	global $name;
+
 	global $email;
-	global $password;
-	global $birth;
-	global $gender;
-	global $uni_id;
-	global $uni_name;
-	global $acc_type;
+    global $password;
+    $errors = array();
 	
 	
-	
-	
-	
-	
-	// User log in check
-	
-	if (isset($_POST['login']))
-	{
-		
-		
-		
-		// receive all input values from the form
-		
-		$email = $_POST['email'];
-		
-		
-		
-		
-		
-		
-		// form validation: ensure that the form is correctly filled ...
-		// by adding (array_push()) corresponding error onto $errors array
-		
-		
-		
-		
-		
-		// first check the database to make sure
-		// a user does  exist with the  user id and password
-		
-		
-		$query = "INSERT INTO test VALUES('$email')";
-		
-		$results=connect('youchef',$query);
-		
-		
-		
-		
-		
-	}
-		
-	
-?>
+    
+    if (isset($_POST['login'])) {
 
+        //receiving all input values from the form
+        $email = $_POST['email'];
+        $password = $_POST['pass'];
+        
+        //ensure that form fields are filled properly
+        if(empty($email)){
+            array_push($errors, "Email is required");
+        }
+        if(empty($password)){
+            array_push($errors, "Password is required");
+        }
 
-<html>
-	<head>
-	</head>
-	<body>
+        if(count($errors) == 0){
+            $password = md5($password); //encrypt password before comparing with that of database
+            $query = "SELECT * FROM users WHERE Email = '$email' AND PasswordEnc = '$password'";
+			$result = connect("youchef", $query);
+            if(mysqli_num_rows($result) == 1) {
+                //log user in
+                $row = mysqli_fetch_array($result);
+                $_SESSION['email'] = $email;
+                $_SESSION['Discount'] = 0;
+                $_SESSION['lastname'] = $row['LastName'];
+                $_SESSION['usertype'] = $row['UserType'];
+            } else{
+                array_push($errors, "Wrong username/password combination");
+                echo "Wrong username/password combination";
+                // echo '<script language="javascript">';
+                // echo 'alert("Email/Password was entered incorrectly")';
+                // echo '</script>';
+            }
+        }
+    }
 		
-		
-		
-		<script type="text/javascript">
-			
-			function addpost()
-			{
-				document.querySelector('.bg-modal').style.display = "flex";
-				
-			}
-			function closepost()
-			{
-				document.querySelector('.bg-modal').style.display = "none";
-			}
-			function rate()
-			{
-				document.querySelector('.bg-modal2').style.display = "flex";
-				
-			}
-		function closepostc()
-		{
-		
-		document.querySelector('.bg-modal2').style.display = "none";
-		windows.location="education.php";
-		}
-		function refresh()
-		{
-		windows.location="education.php";
-		
-		}
-		
-		
-		
-		</script>
-		
-		
-		
-		</body>
-		</html>
-		
-		
-		
-		
-		
-		
-		
-				
+	
+?>		

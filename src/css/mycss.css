@@ -67,7 +67,7 @@ h1{
     outline: none;
     height: 40px;
     background: #fb2525;
-    color: #000;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     border-radius: 20px;
 }

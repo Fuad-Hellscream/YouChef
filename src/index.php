@@ -2,7 +2,9 @@
 
 
   //include("php/server.php");
-  include_once('php/loginserver.php');
+//   include_once('php/loginserver.php');
+  include_once('php/signupserver.php');
+  include_once('php/logoutserver.php')
 ?>
 
 <!doctype html>
@@ -51,10 +53,6 @@
             <link rel="stylesheet" href="css/style1.css">
             <link rel="stylesheet" href="css/style.css">
             <link rel="stylesheet" href="css/responsive.css">
-
-
-
-
 
 
         </head>
@@ -111,11 +109,26 @@
         						<!-- Search form -->
 
         						<li class="nav-item submenu dropdown">
+									<?php
+										if(isset($_SESSION['email'])){ ?>
+										<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accounts</span>
+										<?php } else {?>
         							<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log In / Sign up</span>
+										<?php } ?>
 <!-- ENTER CHANGES FOR LOGGED IN ACCOUNTS AND OTHERWISE FOR EVERY PAGE -->
         							<ul class="dropdown-menu">
-        								<li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal"><?php if(isset($_SESSION['email'])){echo $_SESSION['lastname'];} else {echo "Login";} ?></a></li>
-        								<li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
+										<?php
+											if(isset($_SESSION['email'])){ ?>
+												 <li class="nav-item"><a class="nav-link" href="profile.php" ><?php echo $_SESSION['lastname']; ?></a></li>
+												 <li class="nav-item"><a class="nav-link" href="index.php?logout='1'" >Logout</a></li>
+										<?php	} else { ?>
+												 <li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Login</a></li>
+												 <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
+										<?php	} ?>
+											//index.php?logout=\'1\'
+										
+        								<!-- <li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Login</a></li> -->
+        								<!-- <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li> -->
         							</ul>
         						</li>
 
@@ -340,6 +353,8 @@
 <!-- KEEP THE SEARCH IN MOST FAMILIAR TO LEAST FAMILIAR ORDER INSTEAD OF ONLY SHOWING THE EXACT SEARCHED ITEM TO KEEP THE NUMBER OF BLOCKS CONSISTENT AND THE FORMAT UNALTERED. -->
                                 <div class="container-wrap">
                                     <div class="row no-gutters d-flex">
+                                        <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="col-lg-4 d-flex ftco-animate">
                                         <div class="col-lg-4 d-flex ftco-animate">
                                             <div class="services-wrap d-flex">
                                                 <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
@@ -1085,7 +1100,7 @@
 
 <!-- end bg modal -->
 
-<!-- login bg-modal -->
+<!-- login bg-modal (Login) -->
 <div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -1099,12 +1114,13 @@
           <div class="loginbox">
               <img src="avatar.png" class="avatar">
               <h1>Login Here</h1>
+			  <?php include_once('php/loginserver.php'); ?>
               <form action="" method="post">
                   <p>Email Id</p>
                   <input type="email" name="email" required="1" placeholder="Enter Email Id" style="color:#000" >
                   <p>Password</p>
                   <input type="password" name="pass" required="1" placeholder="Enter Password" style="color:#000">
-                  <input type="submit" name="login" value="Login">
+                  <input type="submit" id="log" name="login" style = "color:white;" value="Login">
                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#"><p>Forgot your password ?</p></a>
                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal"><p>Don't have an account ?</p></a>
               </form>
@@ -1123,7 +1139,7 @@
 <!-- end log in bg modal -->
 
 
-<!-- sign in bg model -->
+<!-- sign in bg model (Signup)-->
 
 <div class="modal fade" id="sign_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
   <div class="modal-dialog modal-lg" role="document">
@@ -1139,7 +1155,7 @@
 
         		<img src="avatar.png" class="avatar">
         		<!-- <h1>Sign In Here</h1> -->
-        		<form  action="" method="get">
+        		<form  action="" method="post">
 
 
         					<p>First Name</p>

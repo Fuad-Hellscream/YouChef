@@ -58,6 +58,9 @@ $('#sign_modal').on('show.bs.modal', function (event) {
   modal.find('.modal-body input').val(recipient)
 
 })
+document.getElementById("log").addEventListener("click", function(event){
+  event.preventDefault()
+});
 
 
 
