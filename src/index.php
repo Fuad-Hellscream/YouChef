@@ -45,6 +45,7 @@
         	<link rel="stylesheet" href="css/flaticon.css">
         	<link rel="stylesheet" href="css/icomoon.css">
 
+
             <link rel="stylesheet" href="css/bootstrap.css">
 
         	<link rel="stylesheet" href="css/pizza.css">
@@ -937,115 +938,115 @@
        </button>
      <!-- </div> -->
      <div class="modal-body order" >
-                 <div class="container">
-                     <div class="row">
-                         <img src="logo.png" class="avatar">
-                         <div class="booking-form">
-                             <div class="form-header">
-                                 <h1><br>Recipe Details</h1>
-                             </div>
+                  <div class="container">
+                      <div class="row">
+                          <img src="logo.png" class="avatar">
+                          <div class="booking-form">
+                              <div class="form-header">
+                                  <h1><br>Recipe Details</h1>
+                              </div>
 
-                         </div>
-                     </div>
-                 </div>
-         <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
-             <div class="col-md-7 heading-section text-center ftco-animate">
-                 <h2 class="mb-4">Italian Pizza</h2>
-                 <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                 <p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-             </div>
-         </div>
-         <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right"
-             data-id="3" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
-             data-image="image/banner/bg_1.png" style="color:black">Add
-         </button>
-
-
-     <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
-
-
-         <div class="row">
-
-             <div class="cocol-lg-3 col-sm-6">
-                 <div class="form-header">
-                     <h1>Utensils<br></h1>
-                 </div>
-
-                 <table style="width:100%" class="table table-hover table-dark">
-                     <thead>
-                         <tr>
-                         <th scope="col">Image</th>
-                         <th scope="col">Name</th>
-                         <th scope="col">Description</th>
-                         </tr>
-                     </thead>
-                     <tbody>
-                         <?php for($i=1;$i<=4;$i++){ ?>
-                         <tr>
-                         <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
-                         <td></td>
-                         <td></td>
-                         </tr>
-
-                             <?php } ?>
-
-                     </tbody>
-                 </table>
-
-
-
-             </div>
-
-
-
-
-
-
-
-
-             <div class="cocol-lg-3 col-sm-6">
-                 <div class="form-header">
-                     <h1>Nutritions Values<br></h1>
-                 </div>
-
-                 <table style="width:100%" class="table table-hover table-dark">
-                     <thead>
-                         <tr>
-                         <th scope="col">#</th>
-                         <th scope="col">Nutritions</th>
-                         <th scope="col">Value</th>
-                         </tr>
-                     </thead>
-                     <tbody>
-                         <?php for($i=1;$i<=8;$i++){ ?>
-                         <tr>
-                         <th scope="row"><?php echo $i ?></th>
-                         <td></td>
-                         <td></td>
-                         </tr>
-
-                             <?php } ?>
-
-                     </tbody>
-                 </table>
-
-
-
-             </div>
-
-
-
-
-         </div>
-
-
-     </section>
+                          </div>
+                      </div>
+                  </div>
+          <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+              <div class="col-md-7 heading-section text-center ftco-animate">
+                  <h2 class="mb-4">Italian Pizza</h2>
+                  <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+                  <p class="mt-5" style="color:white;"><b>Difficulty : Medium</b> <br>A recipe that will remind you of the glorious taste of Italy filled with effort and thought and care all put into a recipe to get your tastebuds overwhelmed with the juicy jalapenos and tomaotes surfing down through your tounge.<br><b>The recipe instructions will be delivered to your home once you confirm the order.</b></p>
+              </div>
+          </div>
+          <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right"
+              data-id="3" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+              data-image="image/banner/bg_1.png" style="color:black">Add
+          </button>
 
 
       <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
-         <div class="form-header">
-             <h1>Ingredients<br></h1>
-         </div>
+
+
+          <div class="row">
+
+              <div class="cocol-lg-3 col-sm-6">
+                  <div class="form-header">
+                      <h1>Utensils<br></h1>
+                  </div>
+
+                  <table style="width:100%" class="table table-hover table-dark">
+                      <thead>
+                          <tr>
+                          <th scope="col">Image</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Description</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <?php for($i=1;$i<=4;$i++){ ?>
+                          <tr>
+                          <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
+                          <td>Oven</td>
+                          <td>2000W, 120V, 1100A</td>
+                          </tr>
+
+                              <?php } ?>
+
+                      </tbody>
+                  </table>
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+              <div class="cocol-lg-3 col-sm-6">
+                  <div class="form-header">
+                      <h1>Nutritions Values<br></h1>
+                  </div>
+
+                  <table style="width:100%" class="table table-hover table-dark">
+                      <thead>
+                          <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Nutritions</th>
+                          <th scope="col">Value</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <?php for($i=1;$i<=8;$i++){ ?>
+                          <tr>
+                          <th scope="row"><?php echo $i ?></th>
+                          <td>Calories</td>
+                          <td>140KCal</td>
+                          </tr>
+
+                              <?php } ?>
+
+                      </tbody>
+                  </table>
+
+
+
+              </div>
+
+
+
+
+          </div>
+
+
+      </section>
+
+
+      <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+          <div class="form-header">
+              <h1>Ingredients<br></h1>
+          </div>
           <table style="width:100%" class="table table-hover table-dark">
             <thead>
               <tr>
@@ -1059,30 +1060,30 @@
                 <?php for($i=1;$i<=8;$i++){ ?>
               <tr>
                 <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
-                <td>Italian Pizza</td>
-                <td>2.5kg</td>
+                <td>Tomatoes</td>
+                <td>4 pieces</td>
                 <td>Tk.50</td>
               </tr>
 
-                 <?php } ?>
+                  <?php } ?>
 
-             <tr>
-             <th scope="row"></th>
-             <td></td>
-             <td></td>
-             <td>Total = Tk.50</td>
-             </tr>
+              <tr>
+              <th scope="row"></th>
+              <td></td>
+              <td></td>
+              <td>Total = Tk.50</td>
+              </tr>
 
             </tbody>
           </table>
 
 
       </section>
+
       <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right"
           data-id="3" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
           data-image="image/banner/bg_1.png" style="color:black">Add
       </button>
-
 
    </div>
 
@@ -1110,8 +1111,9 @@
           <span aria-hidden="true">&times;</span>
         </button>
 
-      <div class="modal-body">
-          <div class="loginbox">
+      <div class="modal-body ">
+          <section>
+          <div class="loginbox" >
               <img src="avatar.png" class="avatar">
               <h1>Login Here</h1>
 			  <?php include_once('php/loginserver.php'); ?>
@@ -1120,13 +1122,16 @@
                   <input type="email" name="email" required="1" placeholder="Enter Email Id" style="color:#000" >
                   <p>Password</p>
                   <input type="password" name="pass" required="1" placeholder="Enter Password" style="color:#000">
-                  <input type="submit" id="log" name="login" style = "color:white;" value="Login">
+
+                  <!-- <input type="submit" class="btn btn-warning btn-sm" name="login" value="Login"> -->
+                  <button type="submit" class="btn  logbtn" name="login" style="width:100%;" value="Login">Login</button>
+
                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#"><p>Forgot your password ?</p></a>
                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal"><p>Don't have an account ?</p></a>
               </form>
 
           </div>
-
+      </section>
 
       </div>
       <div class="modal-footer">
@@ -1187,7 +1192,7 @@
         					<input type="date" required="1" name="date" ><br>
 
 
-        				<input type="submit"  name="sign" value="Sign In">
+                            <button type="submit" class="btn btn-warning logbtn" name="sign" style="width:100%;" value="SignUp">Sign Up</button>
 
 
 

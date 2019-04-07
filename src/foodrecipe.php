@@ -1090,7 +1090,7 @@
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h2 class="mb-4">Italian Pizza</h2>
 					<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-					<p class="mt-5" style="color:white;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p class="mt-5" style="color:white;"><b>Difficulty : Medium</b> <br>A recipe that will remind you of the glorious taste of Italy filled with effort and thought and care all put into a recipe to get your tastebuds overwhelmed with the juicy jalapenos and tomaotes surfing down through your tounge.<br><b>The recipe instructions will be delivered to your home once you confirm the order.</b></p>
 				</div>
 			</div>
             <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart" style="float:right"
@@ -1121,8 +1121,8 @@
 							<?php for($i=1;$i<=4;$i++){ ?>
 							<tr>
 							<td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
-							<td></td>
-							<td></td>
+							<td>Oven</td>
+							<td>2000W, 120V, 1100A</td>
 							</tr>
 
 								<?php } ?>
@@ -1158,8 +1158,8 @@
 							<?php for($i=1;$i<=8;$i++){ ?>
 							<tr>
 							<th scope="row"><?php echo $i ?></th>
-							<td></td>
-							<td></td>
+							<td>Calories</td>
+							<td>140KCal</td>
 							</tr>
 
 								<?php } ?>
@@ -1197,8 +1197,8 @@
                   <?php for($i=1;$i<=8;$i++){ ?>
                 <tr>
                   <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
-                  <td>Italian Pizza</td>
-                  <td>2.5kg</td>
+                  <td>Tomatoes</td>
+                  <td>4 pieces</td>
                   <td>Tk.50</td>
                 </tr>
 
