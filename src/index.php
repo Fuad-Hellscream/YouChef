@@ -3,7 +3,7 @@
 
   //include("php/server.php");
 //   include_once('php/loginserver.php');
-  include_once('php/signupserver.php');
+//   include_once('php/signupserver.php');
   include_once('php/logoutserver.php')
 ?>
 
@@ -318,7 +318,7 @@
         <section class="accomodation_area " style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
-            <!-- ###################################### ready mael ################################### -->
+            <!-- ###################################### ready meal ################################### -->
 
             <section id="Food" class="Fd section_gap" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
@@ -339,7 +339,7 @@
 					</div>
 				</nav>
 
-<!-- ###################################### ready mael ################################### -->
+<!-- ###################################### ready meal ################################### -->
 
 				<div class="section_title text-center">
 					<h2 class="" style="text-color:white">Ready Meals</h2>
@@ -1124,7 +1124,7 @@
                   <input type="password" name="pass" required="1" placeholder="Enter Password" style="color:#000">
 
                   <!-- <input type="submit" class="btn btn-warning btn-sm" name="login" value="Login"> -->
-                  <button type="submit" class="btn  logbtn" name="login" style="width:100%;" value="Login">Login</button>
+                  <button type="submit" class="btn btn-warning logbtn" name="login" style="width:100%;" value="Login">Login</button>
 
                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#"><p>Forgot your password ?</p></a>
                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal"><p>Don't have an account ?</p></a>
@@ -1160,6 +1160,9 @@
 
         		<img src="avatar.png" class="avatar">
         		<!-- <h1>Sign In Here</h1> -->
+				<?php
+					include_once('php/signupserver.php');
+				?>
         		<form  action="" method="post">
 
 
