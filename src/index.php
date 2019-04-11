@@ -340,6 +340,10 @@
 				</nav>
 
 <!-- ###################################### ready meal ################################### -->
+                
+                <?php
+                    include_once('php/ReadyMealServer.php');
+                ?>
 
 				<div class="section_title text-center">
 					<h2 class="" style="text-color:white">Ready Meals</h2>
@@ -351,14 +355,19 @@
                     <div class="media testimonial_item" style="background: url(image/.jpg)no-repeat fixed; border:none" >
                         <div class="media-body">
                             <!-- body -->
+                            <div class="container-wrap">
+                                <div class="row no-gutters d-flex">
+                                <?php
+                                    for($j=1; $j<=6; $j++){
+                                        if($countResults>0){
+                                                 $recipe = mysqli_fetch_array($result);
+                                ?>
 
-                        <div class="container-wrap">
-                            <div class="row no-gutters d-flex">
                                 <div class="col-lg-4 d-flex ftco-animate">
                                     <div class="services-wrap d-flex">
                                         <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
                                         <div class="text p-4">
-                                            <h3>Italian Pizza</h3>
+                                            <h3><?php echo $recipe['MealName']; ?></h3>
 <!-- ENTER RESTAURANT NAME HERE FROM DATABASE AND FOOD DETAILS -->
                                             <p><b>Take Out : </b>Far far away, behind the word mountains, far from the   </p>
                                             <form action="">
@@ -376,6 +385,10 @@
                                         </div>
                                     </div>
                                 </div>
+                                <?php
+                                        }
+                                    }
+                                ?>
                                 <div class="col-lg-4 d-flex ftco-animate">
                                     <div class="services-wrap d-flex">
                                         <a  class="img" style="background-image: url(image/pizza-2.jpg);"></a>
@@ -1141,7 +1154,9 @@
           <div class="loginbox" >
               <img src="avatar.png" class="avatar">
               <h1>Login Here</h1>
+
 			  <?php include_once('php/loginserver.php'); ?>
+
               <form action="" method="post">
                   <p>Email Id</p>
                   <input type="email" name="email" required="1" placeholder="Enter Email Id" style="color:#000" >
