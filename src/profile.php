@@ -47,9 +47,25 @@
 
 
 	<script>
+    function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
 
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result)
+
+                        ;
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
 	</script>
-
+    <style>
+      article, aside, figure, footer, header, hgroup,
+      menu, nav, section { display: block; }
+    </style>
 
 
 </head>
@@ -154,9 +170,31 @@
 	<div class="container-fluid">
 		<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
 			<div class="col-md-7 heading-section text-center ftco-animate">
+ <!-- ################# profile image ############## -->
+                <div class="text-center">
+                  <img id="blah" src="image/Profile/raihan.jpg" style="" class="rounded"  alt="..." width="304" height="236">
+                </div>
+                <br>
+                <form action='' method="post" enctype="multipart/form-data">
+                <input type='file' onchange="readURL(this);" />
+                <button type="submit" class="btn btn-success " name="save"  value="Save">Save</button>
+                </form>
+<!-- ################# profile name ################# -->
 				<h2 class="mb-4">Profile Owner Name</h2>
 				<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-			</div>
+                <h2 class="mb-4">Points</h2>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">130</div>
+                </div>
+                <br><br>
+                <h4>25% discount available
+
+                    <button type="submit" class="btn btn-primary " name="redeem"  value="Redeem">Redeem</button>
+                    </div>
+                </h4>
+
+
+</div>
 		</div>
 
 		<div class="row d-md-flex">
@@ -172,7 +210,7 @@
 
 						</div>
 					</div>
-					<div class="col-lg-12 d-flex align-items-center">
+					<div class="col-lg-6 d-flex align-items-center">
 
 						<div class="tab-content ftco-animate" id="v-pills-tabContent">
 
@@ -210,6 +248,41 @@
 
 
 							</div>
+						</div>
+
+
+
+					</div>
+                    <div class="col-lg-6 d-flex align-items-center">
+
+						<div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+                            <div class="col-lg-12 nav-link-wrap mb-5">
+                                <div  class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <button type="button" class="btn btn-primary mr-2 " name="stat"  value="stat">Statistics</button>
+                                    <button type="button" class="btn btn-info mr-2 " name="log"  value="log" data-toggle="modal" data-target="#orderlog_modal" >Order Log</button>
+                                    <button type="button" class="btn btn-primary mr-2 " name="subrecipe"  value="subrecipe" data-toggle="modal" data-target="#subrecipe_modal">Submit Recipe</button>
+
+                                </div>
+
+
+
+                            </div>
+
+
+								<p style="color:white">Order Placed : </p>
+								<br><br>
+								<p style="color:white">Discount Activated : </p>
+								<br><br>
+								<p style="color:white">Courses Completed : </p>
+								<br><br>
+								<p style="color:white">Resgistered On : </p>
+								<br><br>
+
+
+
+
+
 						</div>
 
 
@@ -459,8 +532,8 @@
 
 
 
-	<!-- login bg-modal -->
-	<div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
+	<!-- orderlog_modal -->
+	<div class="modal fade" id="orderlog_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 
@@ -470,20 +543,7 @@
 				</button>
 
 				<div class="modal-body">
-					<div class="loginbox">
-						<img src="avatar.png" class="avatar">
-						<h1>Login Here</h1>
-						<form action="" method="get">
-							<p>Email Id</p>
-							<input type="email" name="id" required="1" placeholder="Enter Email Id" style="color:#000" >
-							<p>Password</p>
-							<input type="password" name="pass" required="1" placeholder="Enter Password" style="color:#000">
-							<input type="submit" name="login" value="Login">
-							<a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#"><p>Forgot your password ?</p></a>
-							<a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal"><p>Don't have an account ?</p></a>
-						</form>
 
-					</div>
 
 
 				</div>
@@ -494,11 +554,11 @@
 		</div>
 	</div>
 
-	<!-- end log in bg modal -->
+	<!-- end orderlog_modal -->
 
-	<!-- sign in bg model -->
+	<!-- Submit Recipe -->
 
-	<div class="modal fade" id="sign_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
+	<div class="modal fade" id="subrecipe_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 
@@ -508,50 +568,7 @@
 				</button>
 
 				<div class="modal-body">
-					<div class="loginbox">
 
-						<img src="avatar.png" class="avatar">
-						<h1>Sign In Here</h1>
-						<form  action="" method="get">
-
-
-							<p>First Name</p>
-							<input type="text" name="name" required="1" placeholder="Enter Your Firt Name"  style="color:#000"><br><br>
-							<p>Last Name</p>
-							<input type="text" name="last-name" required="1" placeholder="Enter Your Last Name"  style="color:#000"><br><br>
-							<p>Email</p>
-							<input type="email" name="email" required="1" placeholder="Example@gmail.com"  style="color:#000">	<br><br>
-							<p>Password</p>
-							<input type="password" name="pass" required="1" placeholder="Enter Your Password"  style="color:#000"><br><br>
-							<p>Confirm Password</p>
-							<input type="password" name="conpass" required="1" placeholder="Enter Confirm Password"  style="color:#000">
-
-							<p>Contact Number</p>
-							<input type="text" name="contact" required="1" placeholder="Enter Your Contact Number" value=""  style="color:#000"><br><br>
-							<p>Address</p>
-							<input type="text" name="address" required="1" placeholder="Enter Your address" value=""  style="color:#000"><br><br>
-							<p>Gender</p>
-							<div class="gender"><br>
-
-								<label class="container">
-									<input type="radio" name="gender" checked=true value="Male"  style="color:#000">Male
-								</label>
-								<label class="container">
-									<input type="radio" name="gender"  value="Female"  style="color:#000">Female
-								</label>
-							</div>
-							<p>Birth Date:</p>
-							<input type="date" required="1" name="date" ><br>
-
-
-							<input type="submit"  name="sign" value="Sign In">
-
-
-
-						</form>
-
-
-					</div>
 
 
 				</div>
@@ -564,7 +581,7 @@
 
 
 
-	<!-- end sign in bg modal -->
+	<!-- end Submit Recipe  -->
 
 
 

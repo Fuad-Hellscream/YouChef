@@ -123,8 +123,8 @@
 												 <li class="nav-item"><a class="nav-link" href="profile.php" ><?php echo $_SESSION['lastname']; ?></a></li>
 												 <li class="nav-item"><a class="nav-link" href="index.php?logout='1'" >Logout</a></li>
 										<?php	} else { ?>
-												 <li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Login</a></li>
-												 <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
+												 <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#log_modal">Login</a></li>
+												 <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
 										<?php	} ?>
 											//index.php?logout=\'1\'
 
@@ -340,7 +340,7 @@
 				</nav>
 
 <!-- ###################################### ready meal ################################### -->
-                
+
                 <?php
                     include_once('php/ReadyMealServer.php');
                 ?>
