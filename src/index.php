@@ -98,7 +98,7 @@
         						<li class="nav-item submenu dropdown">
         							<span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
         							<ul class="dropdown-menu">
-        								<li class="nav-item"><a class="nav-link" href="">course 1</a></li>
+        								<li class="nav-item"><a class="nav-link" href="course1.php">course 1</a></li>
         								<li class="nav-item"><a class="nav-link" href="#">course 2</a></li>
         								<li class="nav-item"><a class="nav-link" href="#">course 3</a></li>
         								<li class="nav-item"><a class="nav-link" href="#">course 4</a></li>
@@ -1156,7 +1156,7 @@
               <h1>Login Here</h1>
 
 			  <?php
-              // include_once('php/loginserver.php'); 
+              // include_once('php/loginserver.php');
               ?>
 
               <form action="" method="post">

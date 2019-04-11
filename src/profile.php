@@ -119,7 +119,7 @@
             	<li class="nav-item submenu dropdown">
             		<span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
             		<ul class="dropdown-menu">
-            			<li class="nav-item"><a class="nav-link" href="">couese 1</a></li>
+            			<li class="nav-item"><a class="nav-link" href="course1.php">couese 1</a></li>
             			<li class="nav-item"><a class="nav-link" href="#">couese 2</a></li>
             			<li class="nav-item"><a class="nav-link" href="#">couese 3</a></li>
             			<li class="nav-item"><a class="nav-link" href="#">couese 4</a></li>
@@ -308,7 +308,7 @@
 
                             <div class="col-lg-12 nav-link-wrap mb-5">
                                 <div  class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                    <button type="button" class="btn btn-primary mr-2 " name="stat"  value="stat">Statistics</button>
+                                    <!-- <button type="button" class="btn btn-primary mr-2 " name="stat"  value="stat">Statistics</button> -->
                                     <button type="button" class="btn btn-info mr-2 " name="log"  value="log" data-toggle="modal" data-target="#orderlog_modal" >Order Log</button>
                                     <button type="button" class="btn btn-primary mr-2 " name="subrecipe"  value="subrecipe" data-toggle="modal" data-target="#subrecipe_modal">Submit Recipe</button>
 
@@ -316,8 +316,9 @@
 
 
 
-                            </div>
 
+                            </div>
+                                <h2 class="mb-4" style="color:#33EEFF">Statistics</h2>
 
 								<p style="color:white">Order Placed : </p>
 								<br><br>

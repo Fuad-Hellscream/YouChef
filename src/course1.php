@@ -93,7 +93,7 @@
                             <li class=" nav-item "><a class="nav-link" href="index.php">Home</a></li>
 
                             <li class="nav-item submenu dropdown">
-                                <span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
+                                <span   class=" nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="nav-link" href="readymeal.php">Ready Meals</a></li>
                                     <li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
@@ -110,7 +110,7 @@
                                 </ul>
                             </li>
 
-                            <li class=" active nav-item"><a class="nav-link" href="contact.php" >Contact</a></li>
+                            <li class=" nav-item"><a class="nav-link" href="contact.php" >Contact</a></li>
 
                             <!-- Search form -->
 
@@ -171,18 +171,7 @@
 		</section>
 		<!--================Breadcrumb Area =================-->
         <!-- 16:9 aspect ratio -->
-        <div class="text-center">
 
-          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalYT">YouTube Modal</button>
-
-
-
-        </div>
-        <div class="container">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
-        </div>
-        </div>
 
         <!--================service are =================-->
 
@@ -233,76 +222,7 @@
 
         <!--================ Accomodation Area  =================-->
 
-        <!--================Contact Area =================-->
-        <section class="contact_area section_gap" style="background: url(image/bg_4.jpg)no-repeat fixed;">
-            <div class="container">
-                <!-- <div id="mapBox" class="mapBox"
-                    data-lat="40.701083"
-                    data-lon="-74.1522848"
-                    data-zoom="13"
-                    data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                    data-mlat="40.701083"
-                    data-mlon="-74.1522848">
-				</div> -->
-                <main class=" m-0 p-0">
-					<div class="container-fluid m-0 p-0">
-						<!--Google map-->
-						<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-							<iframe width="100%" height="450px" src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-							style="border:0" allowfullscreen></iframe>
-						</div>
 
-						<!--Google Maps-->
-
-					</div>
-				</main>
-                <div class="row" >
-                    <div class="col-md-3">
-                        <div class="contact_info">
-                            <div class="info_item">
-                                <i class="lnr lnr-home"></i>
-                                <h6 style="color:white">Notunbazar, Dhaka</h6>
-                                <p>United Internationla University</p>
-							</div>
-                            <div class="info_item">
-                                <i class="lnr lnr-phone-handset"></i>
-                                <h6 ><a href="#" style="color:white">+0088------------</a></h6>
-                                <p>Mon to Fri 9am to 6 pm</p>
-							</div>
-                            <div class="info_item">
-                                <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#" style="color:white">youchef@gmail.com</a></h6>
-                                <p>Send us your query anytime!</p>
-							</div>
-						</div>
-					</div>
-                    <div class="col-md-9">
-                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-								</div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
-								</div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
-								</div>
-							</div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter Message"></textarea>
-								</div>
-							</div>
-                            <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="btn theme_btn button_hover">Send Message</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-        <!--================Contact Area =================-->
 
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap" style="background: url(image/background/facilites_bg1.jpg)no-repeat fixed; border:none">
