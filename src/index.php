@@ -1184,6 +1184,10 @@
 <!-- end log in bg modal -->
 
 
+
+
+
+
 <!-- sign in bg model (Signup)-->
 
 <div class="modal fade" id="sign_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
@@ -1221,6 +1225,7 @@
         					<input type="text" name="contact" required="1" placeholder="Enter Your Contact Number" value=""  style="color:#000"><br><br>
                             <p>Address</p>
         					<input type="text" name="address" required="1" placeholder="Enter Your address" value=""  style="color:#000"><br><br>
+
         					<p>Gender</p>
         					<div class="gender"><br>
 

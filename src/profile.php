@@ -189,7 +189,7 @@
                 <br><br>
                 <h4>25% discount available
 
-                    <button type="submit" class="btn btn-primary " name="redeem"  value="Redeem">Redeem</button>
+                    <button type="submit" class="btn btn-primary ml-2 " name="redeem"  value="Redeem">Redeem</button>
                     </div>
                 </h4>
 
@@ -233,18 +233,59 @@
 
 							</div>
 							<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
-								<p style="color:white">Name : </p>
+
+                                <form  action="" method="post">
+
+                                <button type="submit" class="btn btn-primary mr-2 " name="upadate"  value="upadate">Update</button>
+                                <br><br>
+								<p style="color:white">First Name :
+
+                                    <input type="text" style="width:100%;" name="name" required="1" placeholder="Update First Name"  style="color:white">
+
+                                 </p>
+
 								<br><br>
-								<p style="color:white">Email : </p>
+                                <p style="color:white">Last Name :
+
+                                    <input type="text" style="width:100%;" name="last-name" required="1" placeholder="Update Last Name"  style="color:white">
+
+                                 </p>
+
 								<br><br>
-								<p style="color:white">Contact Number : </p>
+								<p style="color:white">Email :
+
+                                    <input type="email" style="width:100%;" name="email" required="1" placeholder="Update Email"  style="color:white">
+
+                                 </p>
 								<br><br>
-								<p style="color:white">Address : </p>
+                                <p style="color:white">Old Password :
+
+                                    <input type="password" style="width:100%;" name="pass" required="1" placeholder="Enter Old Password"  style="color:white">
+
+                                 </p>
 								<br><br>
-								<p style="color:white">Gender : </p>
+                                <p style="color:white">New Password :
+
+                                    <input type="password" style="width:100%;" name="conpass" required="1" placeholder="Enter New Password"  style="color:white">
+
+                                 </p>
 								<br><br>
-								<p style="color:white">Birth Date : </p>
+								<p style="color:white">Contact Number :
+
+                                    <input type="number" style="width:100%;" name="contact" required="1" placeholder="Update Contact Number"  style="color:white">
+
+                                </p>
+								<br><br>
+								<p style="color:white">Address :
+                                    <!-- <input type="text" style="width:100%;" name="address" required="1"  placeholder="Update Address"  style="color:white"> -->
+                                    <textarea class="form-control" required="1" name="address"  rows="2" placeholder="Enter Recipe Details"></textarea>
+                                 </p>
 								<br>
+
+                                <button type="submit" class="btn btn-primary mr-2 " name="upadate"  value="upadate">Update</button>
+
+
+                                </form>
 
 
 							</div>
@@ -533,51 +574,142 @@
 
 
 	<!-- orderlog_modal -->
-	<div class="modal fade" id="orderlog_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
+    <div class="modal fade" id="orderlog_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
+     <div class="modal-dialog modal-lg" role="document" >
+       <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
+         <!-- <div class="modal-header"> -->
+           <h5 class="modal-title" id="exampleModalLabel"></h5>
+           <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         <!-- </div> -->
+         <div class="modal-body order" >
+                      <div class="container">
+                          <div class="row">
+                              <img src="logo.png" class="avatar">
+                              <div class="booking-form">
+                                  <div class="form-header">
+                                      <h1><br>Order Log Details</h1>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
 
 
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
+                      <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+                          <div class="form-header">
+                              <h1>Order Log<br></h1>
+                          </div>
+                          <table style="width:100%" class="table table-hover table-dark">
+                            <thead>
+                              <tr>
+                                <th scope="col">Image</th>
+                                <th scope="col">Ingredients Name</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Price</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                <?php for($i=1;$i<=8;$i++){ ?>
+                              <tr>
+                                <td style="width:10%" class="text-center"><img width="100px" height="100px" src="logo.png"></td>
+                                <td>Tomatoes</td>
+                                <td>4 pieces</td>
+                                <td>Tk.50</td>
+                              </tr>
 
-				<div class="modal-body">
+                                  <?php } ?>
+
+                              <tr>
 
 
+                            </tbody>
+                          </table>
 
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
+
+                      </section>
+
+
+       </div>
+
+
+      </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+         </div>
+       </div>
+    </div>
 
 	<!-- end orderlog_modal -->
 
 	<!-- Submit Recipe -->
 
-	<div class="modal fade" id="subrecipe_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
-		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
+    <div class="modal fade" id="subrecipe_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
+     <div class="modal-dialog modal-lg" role="document" >
+       <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
+         <!-- <div class="modal-header"> -->
+           <h5 class="modal-title" id="exampleModalLabel"></h5>
+           <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         <!-- </div> -->
+         <div class="modal-body order" >
+                      <div class="container">
+                          <div class="row">
+                              <img src="logo.png" class="avatar">
+                              <div class="booking-form">
+                                  <div class="form-header">
+                                      <h1><br>Submit Your Recipe</h1>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
 
 
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-
-				<div class="modal-body">
+                      <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
+                          <form  action="" method="post">
 
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
+
+                  					<p style="color:white">Recipe Name</p>
+                  					<input type="text" style="width:50%;" name="name" required="1" placeholder="Enter Recipe Name"  style="color:white"><br><br>
+                                      <p style="color:white">Recipe Details</p>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" required="1" name="message" id="message" rows="10" placeholder="Enter Recipe Details"></textarea>
+        								</div>
+        							</div>
+
+
+
+                                      <button type="submit" class="btn btn-warning logbtn" name="subrecipe" style="width:50%;" value="subrecipe">Submit Recipe</button>
+
+
+
+                           </form>
+
+
+                      </section>
+
+
+
+
+
+
+
+
+       </div>
+
+
+      </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+         </div>
+       </div>
+    </div>
 
 
 
