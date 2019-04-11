@@ -1,5 +1,10 @@
 <?php
-  include_once('php/logoutserver.php');
+
+
+  include("php/server.php");
+  include_once('php/loginserver.php');
+   include_once('php/signupserver.php');
+  include_once('php/logoutserver.php')
 ?>
 
 <!doctype html>
@@ -107,7 +112,7 @@
         						<li class="nav-item submenu dropdown">
 									<?php
 										if(isset($_SESSION['email'])){ ?>
-										<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accounts</span>
+										<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile</span>
 										<?php } else {?>
         							<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log In / Sign up</span>
 										<?php } ?>
@@ -122,7 +127,7 @@
 												 <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
 										<?php	} ?>
 											//index.php?logout=\'1\'
-										
+
         								<!-- <li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Login</a></li> -->
         								<!-- <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li> -->
         							</ul>
@@ -484,7 +489,7 @@
                         </div>
 
 
-                        
+
                                             <!-- end body -->
 
                         </div>
