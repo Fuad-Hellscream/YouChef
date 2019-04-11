@@ -11,47 +11,47 @@
 
 <head>
 	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="logo.png" type="image/png">
-	<title>YOU CHEF</title>
-	<!-- Bootstrap CSS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="logo.png" type="image/png">
+    <title>YOU CHEF</title>
+    <!-- Bootstrap CSS -->
 
 
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-	<link rel="stylesheet" href="css/jquery.timepicker.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/uikit.min.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/slick-theme.css">
-	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
-	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-	<link rel="stylesheet" href="css/jquery.timepicker.css">
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
 
-	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-	<link rel="stylesheet" href="css/pizza.css">
-	<link rel="stylesheet" href="css/order.css">
-	<link rel="stylesheet" href="css/mycss.css">
-	<link rel="stylesheet" href="css/style1.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/pizza.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/mycss.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 
 	<script>
@@ -77,74 +77,90 @@
 
 
 </head>
-<body  >
+<body >
 
 	<!--================Header Area =================-->
-	<header class="header_area" >
-		<!-- <div class="container"> -->
-			<nav class="navbar navbar-expand-lg navbar-light" style="background-image: url(image/.jpg);">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<a class="navbar-brand logo_h" href="index.php" ><img src="logo.png" alt="">YOU CHEF</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+    <header class="header_area" >
+        <!-- <div class="container"> -->
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-image: url(image/.jpg);">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand logo_h" href="index.php" ><img src="logo.png" alt="">YOU CHEF</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
 
-				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 
-            <!-- <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
-            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
-            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p> -->
+                    <!-- <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                    <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                    <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p> -->
 
-            <div style="float: right; cursor: pointer;">
-            	<span class=" my-cart-icon fa fa-shopping-cart" style="color:black">
-            		Shopping Cart <span class="badge badge-notify my-cart-badge"></span>
-            	</span>
-            </div>
+                    <div style="float: right; cursor: pointer;">
+                       <span class=" my-cart-icon fa fa-shopping-cart" style="color:black">
+                          Shopping Cart<span class="badge badge-notify my-cart-badge"></span>
+                       </span>
+                     </div>
+
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class=" nav-item "><a class="nav-link" href="index.php">Home</a></li>
+
+                        <li class="nav-item submenu dropdown">
+                            <span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="readymeal.php">Ready Meals</a></li>
+                                <li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
+                                <li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="course1.php">course 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">course 2</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">course 3</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">course 4</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="contact.php" >Contact</a></li>
+
+                        <!-- Search form -->
+
+                        <li class="nav-item submenu dropdown">
+                            <?php
+                                if(isset($_SESSION['email'])){ ?>
+                                <span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile</span>
+                                <?php } else {?>
+                            <span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log In / Sign up</span>
+                                <?php } ?>
+    <!-- ENTER CHANGES FOR LOGGED IN ACCOUNTS AND OTHERWISE FOR EVERY PAGE -->
+                            <ul class="dropdown-menu">
+                                <?php
+                                    if(isset($_SESSION['email'])){ ?>
+                                         <li class="nav-item"><a class="nav-link" href="profile.php" ><?php echo $_SESSION['lastname']; ?></a></li>
+                                         <li class="nav-item"><a class="nav-link" href="index.php?logout='1'" >Logout</a></li>
+                                <?php	} else { ?>
+                                         <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#log_modal">Login</a></li>
+                                         <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
+                                <?php	} ?>
 
 
-            <ul class="nav navbar-nav menu_nav ml-auto">
-            	<li class="nav-item "><a class="nav-link" href="index.php">Home</a></li>
-
-            	<li class="nav-item submenu dropdown">
-            		<span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
-            		<ul class="dropdown-menu">
-            			<li class="active nav-item"><a class="active nav-link" href="readymeal.php">Ready Meals</a></li>
-            			<li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
-            			<li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
-            		</ul>
-            	</li>
-            	<li class="nav-item submenu dropdown">
-            		<span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
-            		<ul class="dropdown-menu">
-            			<li class="nav-item"><a class="nav-link" href="course1.php">couese 1</a></li>
-            			<li class="nav-item"><a class="nav-link" href="#">couese 2</a></li>
-            			<li class="nav-item"><a class="nav-link" href="#">couese 3</a></li>
-            			<li class="nav-item"><a class="nav-link" href="#">couese 4</a></li>
-            		</ul>
-            	</li>
-
-            	<li class="nav-item"><a class="nav-link" href="contact.php" >Contact</a></li>
-
-            	<!-- Search form -->
-
-            	<li class="nav-item submenu dropdown">
-            		<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Profile</span>
-            		<ul class="dropdown-menu">
-            			<li class="nav-item"><a class="nav-link" href="#" >Log Out</a></li>
-            		</ul>
-            	</li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Login</a></li> -->
+                                <!-- <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li> -->
+                            </ul>
+                        </li>
 
 
-            </ul>
-        </div>
+                    </ul>
+                </div>
 
-    </nav>
-    <!-- </div> -->
+            </nav>
+            <!-- </div> -->
 
-</header>
+        </header>
 <!--================Header Area =================-->
 
 <!-- ready meal area -->
@@ -167,9 +183,7 @@
 	</div>
 </section>
 
-<!-- #########################################   Special Offer Ready Meals ################################## -->
 
-<!-- ###################################################   categories food ################################################## -->
 
 
 
@@ -202,8 +216,8 @@
                 </h4>
 
 
-</div>
-		</div>
+        </div>
+	</div>
 
 		<div class="row d-md-flex">
 
@@ -702,11 +716,6 @@
 
 
                       </section>
-
-
-
-
-
 
 
 

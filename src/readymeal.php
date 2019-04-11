@@ -54,9 +54,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 
 
-    <script>
 
-    </script>
 
 
 

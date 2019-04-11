@@ -126,7 +126,7 @@
 												 <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#log_modal">Login</a></li>
 												 <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
 										<?php	} ?>
-											//index.php?logout=\'1\'
+
 
         								<!-- <li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Login</a></li> -->
         								<!-- <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li> -->
@@ -342,7 +342,7 @@
 <!-- ###################################### ready meal ################################### -->
 
                 <?php
-                    include_once('php/ReadyMealServer.php');
+                    // include_once('php/ReadyMealServer.php');
                 ?>
 
 				<div class="section_title text-center">
@@ -355,142 +355,112 @@
                     <div class="media testimonial_item" style="background: url(image/.jpg)no-repeat fixed; border:none" >
                         <div class="media-body">
                             <!-- body -->
+
                             <div class="container-wrap">
                                 <div class="row no-gutters d-flex">
-                                <?php
-                                    for($j=1; $j<=6; $j++){
-                                        if($countResults>0){
-                                                 $recipe = mysqli_fetch_array($result);
-                                ?>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Italian Pizza</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/pizza-1.jpg" style="color:black">Add
+                                                    </button>
 
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3><?php echo $recipe['MealName']; ?></h3>
-<!-- ENTER RESTAURANT NAME HERE FROM DATABASE AND FOOD DETAILS -->
-                                            <p><b>Take Out : </b>Far far away, behind the word mountains, far from the   </p>
-                                            <form action="">
-                                              <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="1" value="mild"> Mild
-                                            </form>
 
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-1.jpg" style="color:black">Add
-                                                </button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/pizza-2.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Greek Pizza</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/pizza-2.jpg" style="color:black">Add
+                                                    </button>
 
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <?php
-                                        }
-                                    }
-                                ?>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-2.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Greek Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-2.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-3.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Caucasian Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy">Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-3.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/pizza-3.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Caucasian Pizza</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/pizza-3.jpg" style="color:black">Add
+                                                    </button>
 
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img order-lg-last" style="background-image: url(image/pizza-4.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>American Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                          </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-4.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a class="img order-lg-last" style="background-image: url(image/pizza-5.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Tomatoe Pie</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-5.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img order-lg-last" style="background-image: url(image/pizza-4.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>American Pizza</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/pizza-4.jpg" style="color:black">Add
+                                                    </button>
+                                                    
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a class="img order-lg-last" style="background-image: url(image/pizza-6.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Margherita</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-6.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a class="img order-lg-last" style="background-image: url(image/pizza-5.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Tomatoe Pie</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
+                                                        data-image="image/pizza-5.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a class="img order-lg-last" style="background-image: url(image/pizza-6.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Margherita</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
+                                                        data-image="image/pizza-6.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
 
-
-                                            <!-- end body -->
+                                    <!-- end body -->
 
                         </div>
                     </div>

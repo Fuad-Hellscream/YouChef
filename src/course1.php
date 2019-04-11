@@ -169,10 +169,11 @@
 				</div>
 			</div>
 		</section>
-		<!--================Breadcrumb Area =================-->
-        <!-- 16:9 aspect ratio -->
+		<!--================Courses Area =================-->
+        <section class="accomodation_area " style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
+        </section>
         <!--================service are =================-->
 
         <section class="ftco-section ftco-services " style="background: url(image/bg_4.jpg)no-repeat fixed;">
