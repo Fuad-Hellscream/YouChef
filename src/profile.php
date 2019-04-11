@@ -109,7 +109,7 @@
             	<li class="nav-item submenu dropdown">
             		<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Profile</span>
             		<ul class="dropdown-menu">
-            			<li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Log Out</a></li>
+            			<li class="nav-item"><a class="nav-link" href="#" >Log Out</a></li>
             		</ul>
             	</li>
 
@@ -195,6 +195,18 @@
 
 							</div>
 							<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+								<p style="color:white">Name : </p>
+								<br><br>
+								<p style="color:white">Email : </p>
+								<br><br>
+								<p style="color:white">Contact Number : </p>
+								<br><br>
+								<p style="color:white">Address : </p>
+								<br><br>
+								<p style="color:white">Gender : </p>
+								<br><br>
+								<p style="color:white">Birth Date : </p>
+								<br>
 
 
 							</div>
