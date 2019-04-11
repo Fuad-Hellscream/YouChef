@@ -1,3 +1,11 @@
+<?php
+
+
+  include("php/server.php");
+  include_once('php/loginserver.php');
+   include_once('php/signupserver.php');
+  include_once('php/logoutserver.php')
+?>
 <!doctype html>
 <html lang="en">
 
@@ -56,19 +64,19 @@
 <body  >
 
 	<!--================Header Area =================-->
-	<header class="header_area" >
-		<!-- <div class="container"> -->
-			<nav class="navbar navbar-expand-lg navbar-light" style="background-image: url(image/.jpg);">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<a class="navbar-brand logo_h" href="index.php" ><img src="logo.png" alt="">YOU CHEF</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+    <header class="header_area" >
+        <!-- <div class="container"> -->
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-image: url(image/.jpg);">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand logo_h" href="index.php" ><img src="logo.png" alt="">YOU CHEF</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
 
-				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 
                     <!-- <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
                     <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
@@ -76,52 +84,67 @@
 
                     <div style="float: right; cursor: pointer;">
                        <span class=" my-cart-icon fa fa-shopping-cart" style="color:black">
-                          Shopping Cart <span class="badge badge-notify my-cart-badge"></span>
+                          Shopping Cart<span class="badge badge-notify my-cart-badge"></span>
                        </span>
                      </div>
 
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class=" nav-item "><a class="nav-link" href="index.php">Home</a></li>
 
-					<ul class="nav navbar-nav menu_nav ml-auto">
-						<li class="nav-item "><a class="nav-link" href="index.php">Home</a></li>
+                        <li class="nav-item submenu dropdown">
+                            <span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="readymeal.php">Ready Meals</a></li>
+                                <li class="nav-item"><a class="nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
+                                <li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="">course 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">course 2</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">course 3</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">course 4</a></li>
+                            </ul>
+                        </li>
 
-						<li class="nav-item submenu dropdown">
-							<span   class="active nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" >Order</span>
-							<ul class="dropdown-menu">
-								<li class=" nav-item"><a class="nav-link" href="readymeal.php">Ready Meals</a></li>
-								<li class="active nav-item"><a class="active nav-link" href="foodrecipe.php">Recipe With Ingredients</a></li>
-								<li class="nav-item"><a class="nav-link" href="restaurant.php">Restaurent</a></li>
-							</ul>
-						</li>
-						<li class="nav-item submenu dropdown">
-							<span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
-							<ul class="dropdown-menu">
-								<li class="nav-item"><a class="nav-link" href="">couese 1</a></li>
-								<li class="nav-item"><a class="nav-link" href="#">couese 2</a></li>
-								<li class="nav-item"><a class="nav-link" href="#">couese 3</a></li>
-								<li class="nav-item"><a class="nav-link" href="#">couese 4</a></li>
-							</ul>
-						</li>
+                        <li class="nav-item"><a class="nav-link" href="contact.php" >Contact</a></li>
 
-						<li class="nav-item"><a class="nav-link" href="contact.php" >Contact</a></li>
+                        <!-- Search form -->
 
-						<!-- Search form -->
+                        <li class="nav-item submenu dropdown">
+                            <?php
+                                if(isset($_SESSION['email'])){ ?>
+                                <span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile</span>
+                                <?php } else {?>
+                            <span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log In / Sign up</span>
+                                <?php } ?>
+<!-- ENTER CHANGES FOR LOGGED IN ACCOUNTS AND OTHERWISE FOR EVERY PAGE -->
+                            <ul class="dropdown-menu">
+                                <?php
+                                    if(isset($_SESSION['email'])){ ?>
+                                         <li class="nav-item"><a class="nav-link" href="profile.php" ><?php echo $_SESSION['lastname']; ?></a></li>
+                                         <li class="nav-item"><a class="nav-link" href="index.php?logout='1'" >Logout</a></li>
+                                <?php	} else { ?>
+                                         <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#log_modal">Login</a></li>
+                                         <li class="nav-item"><a class="nav-link"  data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
+                                <?php	} ?>
+                                    //index.php?logout=\'1\'
 
-						<li class="nav-item submenu dropdown">
-							<span class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Log In / Sign up</span>
-							<ul class="dropdown-menu">
-								<li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Log In</a></li>
-								<li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li>
-							</ul>
-						</li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="blog.php" data-toggle="modal" data-target="#log_modal">Login</a></li> -->
+                                <!-- <li class="nav-item"><a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal">Sign up</a></li> -->
+                            </ul>
+                        </li>
 
 
-					</ul>
-				</div>
+                    </ul>
+                </div>
 
-			</nav>
-			<!-- </div> -->
+            </nav>
+            <!-- </div> -->
 
-		</header>
+        </header>
 		<!--================Header Area =================-->
 
 		<!-- ready meal area -->
@@ -1238,113 +1261,126 @@
 
  <!-- end bg modal -->
 
-                <!-- login bg-modal -->
-                <div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
+ <!-- login bg-modal (Login) -->
+ <div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
 
 
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
 
-                      <div class="modal-body">
-                          <div class="loginbox">
-                              <img src="avatar.png" class="avatar">
-                              <h1>Login Here</h1>
-                              <form action="" method="get">
-                                  <p>Email Id</p>
-                                  <input type="email" name="id" required="1" placeholder="Enter Email Id" style="color:#000" >
-                                  <p>Password</p>
-                                  <input type="password" name="pass" required="1" placeholder="Enter Password" style="color:#000">
-                                  <input type="submit" name="login" value="Login">
-                                  <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#"><p>Forgot your password ?</p></a>
-                                  <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal"><p>Don't have an account ?</p></a>
-                              </form>
+       <div class="modal-body ">
+           <section>
+           <div class="loginbox" >
+               <img src="avatar.png" class="avatar">
+               <h1>Login Here</h1>
 
-                          </div>
+ 			  <?php
+               // include_once('php/loginserver.php');
+                ?>
 
+               <form action="" method="post">
+                   <p>Email Id</p>
+                   <input type="email" name="email" required="1" placeholder="Enter Email Id" style="color:#000" >
+                   <p>Password</p>
+                   <input type="password" name="pass" required="1" placeholder="Enter Password" style="color:#000">
 
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                   <!-- <input type="submit" class="btn btn-warning btn-sm" name="login" value="Login"> -->
+                   <button type="submit" class="btn btn-warning logbtn" name="login" style="width:100%;" value="Login">Login</button>
 
-                <!-- end log in bg modal -->
+                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#"><p>Forgot your password ?</p></a>
+                   <a class="nav-link" href="foodreview.php" data-toggle="modal" data-target="#sign_modal"><p>Don't have an account ?</p></a>
+               </form>
 
-				<!-- sign in bg model -->
+           </div>
+       </section>
 
-				<div class="modal fade" id="sign_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
-					<div class="modal-dialog modal-lg" role="document">
-						<div class="modal-content">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
 
-
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-
-							<div class="modal-body">
-								<div class="loginbox">
-
-									<img src="avatar.png" class="avatar">
-									<h1>Sign In Here</h1>
-									<form  action="" method="get">
+ <!-- end log in bg modal -->
 
 
-										<p>First Name</p>
-										<input type="text" name="name" required="1" placeholder="Enter Your Firt Name"  style="color:#000"><br><br>
-										<p>Last Name</p>
-										<input type="text" name="last-name" required="1" placeholder="Enter Your Last Name"  style="color:#000"><br><br>
-										<p>Email</p>
-										<input type="email" name="email" required="1" placeholder="Example@gmail.com"  style="color:#000">	<br><br>
-										<p>Password</p>
-										<input type="password" name="pass" required="1" placeholder="Enter Your Password"  style="color:#000"><br><br>
-										<p>Confirm Password</p>
-										<input type="password" name="conpass" required="1" placeholder="Enter Confirm Password"  style="color:#000">
+ <!-- sign in bg model (Signup)-->
 
-										<p>Contact Number</p>
-										<input type="text" name="contact" required="1" placeholder="Enter Your Contact Number" value=""  style="color:#000"><br><br>
-										<p>Address</p>
-										<input type="text" name="address" required="1" placeholder="Enter Your address" value=""  style="color:#000"><br><br>
-										<p>Gender</p>
-										<div class="gender"><br>
-
-											<label class="container">
-												<input type="radio" name="gender" checked=true value="Male"  style="color:#000">Male
-											</label>
-											<label class="container">
-												<input type="radio" name="gender"  value="Female"  style="color:#000">Female
-											</label>
-										</div>
-										<p>Birth Date:</p>
-										<input type="date" required="1" name="date" ><br>
+ <div class="modal fade" id="sign_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
+   <div class="modal-dialog modal-lg" role="document">
+     <div class="modal-content">
 
 
-										<input type="submit"  name="sign" value="Sign In">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+
+       <div class="modal-body">
+           <div class="loginbox">
+
+         		<img src="avatar.png" class="avatar">
+         		<!-- <h1>Sign In Here</h1> -->
+ 				<?php
+ 					// include_once('php/signupserver.php');
+ 				?>
+         		<form  action="" method="post">
 
 
+         					<p>First Name</p>
+         					<input type="text" name="name" required="1" placeholder="Enter Your Firt Name"  style="color:#000"><br><br>
+                             <p>Last Name</p>
+         					<input type="text" name="last-name" required="1" placeholder="Enter Your Last Name"  style="color:#000"><br><br>
+         					<p>Email</p>
+         					<input type="email" name="email" required="1" placeholder="Example@gmail.com"  style="color:#000">	<br><br>
+         					<p>Password</p>
+         					<input type="password" name="pass" required="1" placeholder="Enter Your Password"  style="color:#000"><br><br>
+         					<p>Confirm Password</p>
+         					<input type="password" name="conpass" required="1" placeholder="Enter Confirm Password"  style="color:#000">
 
-									</form>
+         					<p>Contact Number</p>
+         					<input type="text" name="contact" required="1" placeholder="Enter Your Contact Number" value=""  style="color:#000"><br><br>
+                             <p>Address</p>
+         					<input type="text" name="address" required="1" placeholder="Enter Your address" value=""  style="color:#000"><br><br>
+
+         					<p>Gender</p>
+         					<div class="gender"><br>
+
+                             <label class="container">
+         						<input type="radio" name="gender" checked=true value="Male"  style="color:#000">Male
+                             </label>
+                             <label class="container">
+         						<input type="radio" name="gender"  value="Female"  style="color:#000">Female
+                             </label>
+         					</div>
+         					<p>Birth Date:</p>
+         					<input type="date" required="1" name="date" ><br>
 
 
-								</div>
-
-
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
+                             <button type="submit" class="btn btn-warning logbtn" name="sign" style="width:100%;" value="SignUp">Sign Up</button>
 
 
 
-				<!-- end sign in bg modal -->
+                  </form>
 
+
+               </div>
+
+
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+
+
+         <!-- end sign in modal -->
 
 
 

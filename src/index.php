@@ -1155,7 +1155,9 @@
               <img src="avatar.png" class="avatar">
               <h1>Login Here</h1>
 
-			  <?php include_once('php/loginserver.php'); ?>
+			  <?php
+              // include_once('php/loginserver.php'); 
+              ?>
 
               <form action="" method="post">
                   <p>Email Id</p>
@@ -1184,10 +1186,6 @@
 <!-- end log in bg modal -->
 
 
-
-
-
-
 <!-- sign in bg model (Signup)-->
 
 <div class="modal fade" id="sign_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
@@ -1205,7 +1203,7 @@
         		<img src="avatar.png" class="avatar">
         		<!-- <h1>Sign In Here</h1> -->
 				<?php
-					include_once('php/signupserver.php');
+					// include_once('php/signupserver.php');
 				?>
         		<form  action="" method="post">
 

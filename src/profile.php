@@ -1,3 +1,11 @@
+<?php
+
+
+  include("php/server.php");
+  include_once('php/loginserver.php');
+   include_once('php/signupserver.php');
+  include_once('php/logoutserver.php')
+?>
 <!doctype html>
 <html lang="en">
 
