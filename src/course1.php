@@ -159,10 +159,10 @@
 				<script src="particles.js"></script>
 				<script src="app.js"></script>
 				<div class="page-cover text-center">
-					<h2 class="page-cover-tittle">Contact Us</h2>
+					<h2 class="page-cover-tittle">Courses</h2>
 					<ol class="breadcrumb">
 						<li><a href="index.php">Home</a></li>
-						<li class="active">Contact Us</li>
+						<li class="active">Courses </li>
 
 					</ol>
 

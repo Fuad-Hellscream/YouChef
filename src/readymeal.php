@@ -682,56 +682,7 @@
 										</div>
 									</div>
 
-									<!-- <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
-										<div class="row">
-											<div class="col-md-4 text-center">
-												<div class="menu-wrap">
-													<a href="#" class="menu-img img mb-4" style="background-image: url(image/drink-1.jpg);"></a>
-													<div class="text">
-														<h3><a href="#">Lemonade Juice</a></h3>
-														<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>Tk2.90 </span>
-                                                            <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                                data-id="1" data-name="product 1" data-summary="summary 1" data-price="2.90" data-quantity="1"
-                                                                data-image="image/pizza-1.jpg" style="color:black">Add
-                                                            </button>
-                                                        </p>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-4 text-center">
-												<div class="menu-wrap">
-													<a href="#" class="menu-img img mb-4" style="background-image: url(image/drink-2.jpg);"></a>
-													<div class="text">
-														<h3><a href="#">Pineapple Juice</a></h3>
-														<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>Tk2.90 </span>
-                                                            <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                                data-id="1" data-name="product 1" data-summary="summary 1" data-price="2.90" data-quantity="1"
-                                                                data-image="image/pizza-1.jpg" style="color:black">Add
-                                                            </button>
-                                                        </p>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-4 text-center">
-												<div class="menu-wrap">
-													<p  class="menu-img img mb-4" style="background-image: url(image/drink-3.jpg);"></p>
-													<div class="text">
-														<h3><p>Soda Drinks</p></h3>
-														<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>Tk2.90 </span>
-                                                            <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                                data-id="1" data-name="product 1" data-summary="summary 1" data-price="2.90" data-quantity="1"
-                                                                data-image="image/pizza-1.jpg" style="color:black">Add
-                                                            </button>
-                                                        </p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div> -->
-
+	
 									<div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
 										<div class="row">
 											<div class="col-md-4 text-center">

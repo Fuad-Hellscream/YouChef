@@ -359,6 +359,7 @@
                             <div class="container-wrap">
                                 <div class="row no-gutters d-flex">
                                     <div class="col-lg-4 d-flex ftco-animate">
+
                                         <div class="services-wrap d-flex">
                                             <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
                                             <div class="text p-4">
@@ -419,7 +420,7 @@
                                                         data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
                                                         data-image="image/pizza-4.jpg" style="color:black">Add
                                                     </button>
-                                                    
+
                                                 </p>
                                             </div>
                                         </div>

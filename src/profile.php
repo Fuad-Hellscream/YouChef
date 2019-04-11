@@ -185,23 +185,24 @@
 
 
 
+<section class="ftco-section" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
 <section class="ftco-menu ftco-section" style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 	<div class="container-fluid">
-		<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+		<div class="row justify-content-center">
 			<div class="col-md-7 heading-section text-center ftco-animate">
- <!-- ################# profile image ############## -->
+
                 <div class="text-center">
                   <img id="blah" src="image/Profile/raihan.jpg" style="" class="rounded"  alt="..." width="304" height="236">
                 </div>
                 <br>
                 <form action='' method="post" enctype="multipart/form-data">
                 <input type='file' onchange="readURL(this);" />
-                <button type="submit" class="btn btn-success " name="save"  value="Save">Save</button>
+                <button type="submit" class="btn btn-primary " name="save"  value="Save">Save</button>
                 </form>
-<!-- ################# profile name ################# -->
+
 				<h2 class="mb-4">Profile Owner Name</h2>
 				<p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
                 <h2 class="mb-4">Points</h2>
@@ -212,17 +213,16 @@
                 <h4>25% discount available
 
                     <button type="submit" class="btn btn-primary ml-2 " name="redeem"  value="Redeem">Redeem</button>
-                    </div>
+
                 </h4>
+                </div>
 
-
-        </div>
-	</div>
+	    </div>
 
 		<div class="row d-md-flex">
 
 
-			<div class="col-lg-12 ftco-animate p-md-5">
+			<div class="col-lg-10 ftco-animate p-md-5">
 				<div class="row">
 					<div class="col-lg-12 nav-link-wrap mb-5">
 						<div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -299,7 +299,7 @@
                                 </p>
 								<br><br>
 								<p style="color:white">Address :
-                                    <!-- <input type="text" style="width:100%;" name="address" required="1"  placeholder="Update Address"  style="color:white"> -->
+
                                     <textarea class="form-control" required="1" name="address"  rows="2" placeholder="Enter Recipe Details"></textarea>
                                  </p>
 								<br>
@@ -322,7 +322,7 @@
 
                             <div class="col-lg-12 nav-link-wrap mb-5">
                                 <div  class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                    <!-- <button type="button" class="btn btn-primary mr-2 " name="stat"  value="stat">Statistics</button> -->
+
                                     <button type="button" class="btn btn-info mr-2 " name="log"  value="log" data-toggle="modal" data-target="#orderlog_modal" >Order Log</button>
                                     <button type="button" class="btn btn-primary mr-2 " name="subrecipe"  value="subrecipe" data-toggle="modal" data-target="#subrecipe_modal">Submit Recipe</button>
 
@@ -356,10 +356,10 @@
 			</div>
 		</div>
 	</div>
-</div>
+
 </section>
 
-
+</section>
 <!-- end ready meal area -->
 
 
