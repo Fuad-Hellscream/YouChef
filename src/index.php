@@ -182,7 +182,7 @@
             </div>
 
 
-            <div class="slider-item" style="background-image: url(image/banner/bg_5.jpg);">
+            <div class="slider-item" style="background-image: url(image/banner/bg_9.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row slider-text align-items-center" data-scrollax-parent="true">
@@ -261,7 +261,7 @@
 
 						<div class="col-md-6 col-sm-12 text-center ftco-animate">
 							<span class="subheading">Welcome</span>
-							<h1 class="mb-4">We cooked your desired Pizza Recipe</h1>
+							<h1 class="mb-4">We cooked your desired Food Recipe</h1>
 							<p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                             <form action="">
                               <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
@@ -287,7 +287,7 @@
 			</div>
 
 
-            <div class="slider-item" style="background-image: url(image/banner/bg_9.jpg);">
+            <div class="slider-item" style="background-image: url(image/banner/bg_5.jpg);">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row slider-text align-items-center" data-scrollax-parent="true">
