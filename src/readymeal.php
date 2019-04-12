@@ -343,7 +343,7 @@
                                                 </form>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-id="1" data-name="Beef Meatbowl" data-summary="Beef Meatbowl" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Beef-Meatbowl.jpg" style="color:black">Add
                                                     </button>
 
@@ -364,7 +364,7 @@
                                                 </form>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
+                                                        data-id="2" data-name="Vegetable Pasta" data-summary="Vegetable Pasta" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Vegetable-Pasta.jpg" style="color:black">Add
                                                     </button>
 
@@ -384,7 +384,7 @@
                                                 </form>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-id="3" data-name="Swiss Roll Cake" data-summary="Swiss Roll Cake" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Swiss-Roll-Cake.jpg" style="color:black">Add
                                                     </button>
 
@@ -405,7 +405,7 @@
                                                 </form>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+                                                        data-id="4" data-name="Cheesesteak Burger" data-summary="Cheesesteak Burger" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Cheesesteak-Burger.jpg" style="color:black">Add
                                                     </button>
 
@@ -425,7 +425,7 @@
                                                 </form>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
+                                                        data-id="5" data-name="Beef Spaghetti" data-summary="Beef Spaghetti" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Beef-Spaghetti.jpg" style="color:black">Add
                                                     </button>
 
@@ -437,7 +437,7 @@
                                         <div class="services-wrap d-flex">
                                             <a class="img order-lg-last" style="background-image: url(image/food/madame_lucy_burger.jpg);"></a>
                                             <div class="text p-4">
-                                                <h3>madame_lucy_burger</h3>
+                                                <h3>Madame Llucy Burger</h3>
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <form action="">
                                                   <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
@@ -445,7 +445,7 @@
                                                 </form>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
+                                                        data-id="6" data-name="Madame Llucy Burger" data-summary="Madame Llucy Burger" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/madame_lucy_burger.jpg" style="color:black">Add
                                                     </button>
 

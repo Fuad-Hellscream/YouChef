@@ -359,7 +359,7 @@
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
+                                                        data-id="2" data-name="Beef Pasta" data-summary="Beef Pasta" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Beef-Pasta.jpg" style="color:black">Add
                                                     </button>
                                                     <button id="1" class="ml-2 btn btn-info btn-sm" data-toggle="modal" data-target="#ordermodal"
@@ -377,7 +377,7 @@
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-id="3" data-name="Fried Chicken Biriyani" data-summary="Fried Chicken Biriyani" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Fried-Chicken-Biriyani.jpg" style="color:black">Add
                                                     </button>
                                                     <button id="1" class="ml-2 btn btn-info btn-sm" data-toggle="modal" data-target="#ordermodal"
@@ -396,7 +396,7 @@
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+                                                        data-id="4" data-name="Tort Shokolad Desert Sadkoe" data-summary="Tort Shokolad Desert Sadkoe" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Tort-Shokolad-Desert-Sadkoe.jpg" style="color:black">Add
                                                     </button>
                                                     <button id="1" class="ml-2 btn btn-info btn-sm" data-toggle="modal" data-target="#ordermodal"
@@ -414,7 +414,7 @@
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
+                                                        data-id="5" data-name="Pancake" data-summary="Pancake" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Pancake.jpg" style="color:black">Add
                                                     </button>
                                                     <button id="1" class="ml-2 btn btn-info btn-sm" data-toggle="modal" data-target="#ordermodal"
@@ -432,7 +432,7 @@
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <p class="price"><span>Tk2.90 </span>
                                                     <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                        data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
+                                                        data-id="6" data-name="Pork Bulgogi Meatballs" data-summary="Pork Bulgogi Meatballs" data-price="2.90" data-quantity="1"
                                                         data-image="image/food/Pork-Bulgogi-Meatballs.jpg" style="color:black">Add
                                                     </button>
                                                     <button id="1" class="ml-2 btn btn-info btn-sm" data-toggle="modal" data-target="#ordermodal"
