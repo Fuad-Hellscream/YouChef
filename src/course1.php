@@ -149,7 +149,7 @@
         <!--================Header Area =================-->
 
 		<!--================Breadcrumb Area =================-->
-		<section class="breadcrumb_area" style="background-image: url(image/bg_3.jpg);" >
+		<section class="breadcrumb_area" style="background-image: url(image/bg_4.jpg);" >
 			<div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background=""
 			>
 

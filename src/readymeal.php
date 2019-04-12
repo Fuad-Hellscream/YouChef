@@ -328,249 +328,264 @@
                         <div class="media-body">
                             <!-- body -->
 
-                        <div class="container-wrap">
-                            <div class="row no-gutters d-flex">
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Italian Pizza</h3>
-<!-- ENTER RESTAURANT NAME HERE FROM DATABASE AND FOOD DETAILS -->
-                                            <p><b>Take Out : </b>Far far away, behind the word mountains, far from the   </p>
-                                            <form action="">
-                                              <input checked type="radio" name="1" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="1" value="mild"> Mild
-                                            </form>
+                            <div class="container-wrap">
+                                <div class="row no-gutters d-flex">
+                                    <div class="col-lg-4 d-flex ftco-animate">
 
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-1.jpg" style="color:black">Add
-                                                </button>
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/food/Beef-Meatbowl.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Beef Meatbowl</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Beef-Meatbowl.jpg" style="color:black">Add
+                                                    </button>
 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-2.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Greek Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-2.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-3.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Caucasian Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy">Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-3.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img order-lg-last" style="background-image: url(image/pizza-4.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>American Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                          </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-4.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a class="img order-lg-last" style="background-image: url(image/pizza-5.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Tomatoe Pie</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-5.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/food/Vegetable-Pasta.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Vegetable Pasta</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Vegetable-Pasta.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a class="img order-lg-last" style="background-image: url(image/pizza-6.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Margherita</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-6.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/food/Swiss-Roll-Cake.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Swiss Roll Cake</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Swiss-Roll-Cake.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img order-lg-last" style="background-image: url(image/food/Cheesesteak-Burger.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Cheesesteak Burger</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Cheesesteak-Burger.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a class="img order-lg-last" style="background-image: url(image/food/Beef-Spaghetti.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Beef Spaghetti</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Beef-Spaghetti.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a class="img order-lg-last" style="background-image: url(image/food/madame_lucy_burger.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>madame_lucy_burger</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/madame_lucy_burger.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
 
-                        <div class="container-wrap">
-                            <div class="row no-gutters d-flex">
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Italian Pizza</h3>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+                            <div class="container-wrap">
+                                <div class="row no-gutters d-flex">
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/pizza-1.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Italian Pizza</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="1" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/pizza-1.jpg" style="color:black">Add
+                                                    </button>
 
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="7" data-name="Italian Pizza" data-summary="Italian Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-1.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-2.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Greek Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="8" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-2.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img" style="background-image: url(image/pizza-3.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Caucasian Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="9" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-3.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img order-lg-last" style="background-image: url(image/pizza-4.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>American Pizza</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;v
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="10" data-name="product 1" data-summary="summary 1" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-4.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img order-lg-last" style="background-image: url(image/pizza-5.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Tomatoe Pie</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="11" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-5.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/food/Beef-Pasta.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Beef Pasta</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="2" data-name="Greek Pizza" data-summary="Greek Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Beef-Pasta.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-lg-4 d-flex ftco-animate">
-                                    <div class="services-wrap d-flex">
-                                        <a  class="img order-lg-last" style="background-image: url(image/pizza-6.jpg);"></a>
-                                        <div class="text p-4">
-                                            <h3>Margherita</h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                                            <form action="">
-                                              <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
-                                              <input type="radio" name="2" value="mild"> Mild
-                                            </form>
-                                            <p class="price"><span>Tk2.90 </span>
-                                                <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
-                                                    data-id="12" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
-                                                    data-image="image/pizza-6.jpg" style="color:black">Add
-                                                </button>
-                                            </p>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img" style="background-image: url(image/food/Fried-Chicken-Biriyani.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Fried Chicken Biriyani</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="3" data-name="Caucasian Pizza" data-summary="Caucasian Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Fried-Chicken-Biriyani.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a  class="img order-lg-last" style="background-image: url(image/food/Tort-Shokolad-Desert-Sadkoe.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Tort Shokolad Desert Sadkoe</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="4" data-name="American Pizza" data-summary="American Pizza" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Tort-Shokolad-Desert-Sadkoe.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a class="img order-lg-last" style="background-image: url(image/food/Pancake.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Pancake</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="5" data-name="Tomatoe Pie" data-summary="Tomatoe Pie" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Pancake.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex ftco-animate">
+                                        <div class="services-wrap d-flex">
+                                            <a class="img order-lg-last" style="background-image: url(image/food/Pork-Bulgogi-Meatballs.jpg);"></a>
+                                            <div class="text p-4">
+                                                <h3>Pork Bulgogi Meatballs</h3>
+                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                                                <form action="">
+                                                  <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
+                                                  <input type="radio" name="2" value="mild"> Mild
+                                                </form>
+                                                <p class="price"><span>Tk2.90 </span>
+                                                    <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                                        data-id="6" data-name="Margherita" data-summary="Margherita" data-price="2.90" data-quantity="1"
+                                                        data-image="image/food/Pork-Bulgogi-Meatballs.jpg" style="color:black">Add
+                                                    </button>
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+
+
+
                                             <!-- end body -->
 
                         </div>
@@ -682,7 +697,7 @@
 										</div>
 									</div>
 
-	
+
 									<div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
 										<div class="row">
 											<div class="col-md-4 text-center">

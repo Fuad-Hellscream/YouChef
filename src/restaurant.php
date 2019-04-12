@@ -181,7 +181,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+							<div class="img" style="background-image: url(image/restaurent/1.jpg);"></div>
 							<div class="desc pl-3">
 								<div class="d-flex text align-items-center">
 									<h3><span>TAKEOUT  </span></h3>
@@ -200,10 +200,10 @@
 							</div>
 						</div>
 						<div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+							<div class="img" style="background-image: url(image/restaurent/pizza-hut.png);"></div>
                             <div class="desc pl-3">
 								<div class="d-flex text align-items-center">
-									<h3><span>TAKEOUT  </span></h3>
+									<h3><span>Pizza Hut  </span></h3>
 								</div>
                                 <div class="star">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -219,10 +219,10 @@
 							</div>
 						</div>
 						<div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+							<div class="img" style="background-image: url(image/restaurent/Steak-House.jpg);"></div>
                             <div class="desc pl-3">
 								<div class="d-flex text align-items-center">
-									<h3><span>TAKEOUT  </span></h3>
+									<h3><span>Steak House  </span></h3>
 								</div>
                                 <div class="star">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -238,10 +238,10 @@
 							</div>
 						</div>
 						<div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+							<div class="img" style="background-image: url(image/restaurent/pasta_state.png);"></div>
                             <div class="desc pl-3">
 								<div class="d-flex text align-items-center">
-									<h3><span>TAKEOUT  </span></h3>
+									<h3><span>Pasta State  </span></h3>
 								</div>
                                 <div class="star">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -259,8 +259,8 @@
 					</div>
 
                     <div class="col-md-6">
-                        <div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+						<div class="pricing-entry d-flex ftco-animate">
+							<div class="img" style="background-image: url(image/restaurent/1.jpg);"></div>
 							<div class="desc pl-3">
 								<div class="d-flex text align-items-center">
 									<h3><span>TAKEOUT  </span></h3>
@@ -279,10 +279,10 @@
 							</div>
 						</div>
 						<div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+							<div class="img" style="background-image: url(image/restaurent/pizza-hut.png);"></div>
                             <div class="desc pl-3">
 								<div class="d-flex text align-items-center">
-									<h3><span>TAKEOUT  </span></h3>
+									<h3><span>Pizza Hut  </span></h3>
 								</div>
                                 <div class="star">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -298,10 +298,10 @@
 							</div>
 						</div>
 						<div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+							<div class="img" style="background-image: url(image/restaurent/Steak-House.jpg);"></div>
                             <div class="desc pl-3">
 								<div class="d-flex text align-items-center">
-									<h3><span>TAKEOUT  </span></h3>
+									<h3><span>Steak House  </span></h3>
 								</div>
                                 <div class="star">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -317,10 +317,10 @@
 							</div>
 						</div>
 						<div class="pricing-entry d-flex ftco-animate">
-							<div class="img" style="background-image: url(image/restaurant/1.jpg);"></div>
+							<div class="img" style="background-image: url(image/restaurent/pasta_state.png);"></div>
                             <div class="desc pl-3">
 								<div class="d-flex text align-items-center">
-									<h3><span>TAKEOUT  </span></h3>
+									<h3><span>Pasta State  </span></h3>
 								</div>
                                 <div class="star">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -380,7 +380,7 @@
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img" >
-												<img src="image/restaurant/<?php echo '1' ?>.jpg" alt="">
+												<img src="image/restaurent/<?php echo '1' ?>.jpg" alt="">
 
 											</div>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
@@ -398,9 +398,10 @@
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img">
-												<img src="image/restaurant/<?php echo '2' ?>.jpg" alt="">
+												<img src="image/restaurent/<?php echo 'pizza-hut' ?>.png" alt="">
 												<!-- <a href="#Food" class="btn theme_btn button_hover">Select </a> -->
 											</div>
+                                            <br>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
 											<!-- <a href="#"><h5 class="sec_h4">Ratting</h5></a> -->
                                             <div class="star">
@@ -410,14 +411,15 @@
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                                             </div>
-											<h4>TAKEOUT<small>/Dhanmondi</small></h4>
+
+											<h4>Pizza Hut<small>/Dhanmondi</small></h4>
 										</div>
 									</div>
 
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img">
-												<img src="image/restaurant/<?php echo '3' ?>.jpg" alt="">
+												<img src="image/restaurent/<?php echo 'pasta_state' ?>.png" alt="">
 												<!-- <a href="#Food" class="btn theme_btn button_hover">Select </a> -->
 											</div>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
@@ -429,13 +431,13 @@
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                                             </div>
-                                            <h4>TAKEOUT<small>/Dhanmondi</small></h4>
+                                            <h4>Past State<small>/Dhanmondi</small></h4>
 										</div>
 									</div>
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img">
-												<img src="image/restaurant/<?php echo '4' ?>.jpg" alt="">
+												<img src="image/restaurent/<?php echo 'Steak-House' ?>.jpg" alt="">
 												<!-- <a href="#Food" class="btn theme_btn button_hover">Select</a> -->
 											</div>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
@@ -447,7 +449,7 @@
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                                             </div>
-                                            <h4>TAKEOUT<small>/Dhanmondi</small></h4>
+                                            <h4>Steak House<small>/Dhanmondi</small></h4>
 										</div>
 									</div>
 
@@ -457,11 +459,11 @@
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img" >
-												<img src="image/restaurant/<?php echo '1' ?>.jpg" alt="">
-												<!-- <a href="#Food" class="btn theme_btn button_hover">Select</a> -->
+												<img src="image/restaurent/<?php echo '1' ?>.jpg" alt="">
+
 											</div>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
-                                            <!-- <a href="#"><h5 class="sec_h4">Ratting</h5></a> -->
+											<!-- <a href="#"><h5 class="sec_h4">Ratting</h5></a> -->
                                             <div class="star">
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -469,17 +471,18 @@
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                                             </div>
-                                            <h4>TAKEOUT<small>/Dhanmondi</small></h4>
+											<h4>TAKEOUT<small>/Dhanmondi</small></h4>
 										</div>
 									</div>
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img">
-												<img src="image/restaurant/<?php echo '2' ?>.jpg" alt="">
+												<img src="image/restaurent/<?php echo 'pizza-hut' ?>.png" alt="">
 												<!-- <a href="#Food" class="btn theme_btn button_hover">Select </a> -->
 											</div>
+                                            <br>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
-                                            <!-- <a href="#"><h5 class="sec_h4">Ratting</h5></a> -->
+											<!-- <a href="#"><h5 class="sec_h4">Ratting</h5></a> -->
                                             <div class="star">
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star"></i></a>
@@ -487,14 +490,15 @@
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                                             </div>
-                                            <h4>TAKEOUT<small>/Dhanmondi</small></h4>
+
+											<h4>Pizza Hut<small>/Dhanmondi</small></h4>
 										</div>
 									</div>
 
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img">
-												<img src="image/restaurant/<?php echo '3' ?>.jpg" alt="">
+												<img src="image/restaurent/<?php echo 'pasta_state' ?>.png" alt="">
 												<!-- <a href="#Food" class="btn theme_btn button_hover">Select </a> -->
 											</div>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
@@ -506,13 +510,13 @@
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                                             </div>
-                                            <h4>TAKEOUT<small>/Dhanmondi</small></h4>
+                                            <h4>Past State<small>/Dhanmondi</small></h4>
 										</div>
 									</div>
 									<div class="col-lg-3 col-sm-6">
 										<div class="accomodation_item text-center">
 											<div class="hotel_img">
-												<img src="image/restaurant/<?php echo '4' ?>.jpg" alt="">
+												<img src="image/restaurent/<?php echo 'Steak-House' ?>.jpg" alt="">
 												<!-- <a href="#Food" class="btn theme_btn button_hover">Select</a> -->
 											</div>
                                             <a href="#Food" class="btn btn-warning btn-sm">Select</a>
@@ -524,7 +528,7 @@
                                                 <a href="#"><i class="fa fa-star"></i></a>
                                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                                             </div>
-                                            <h4>TAKEOUT<small>/Dhanmondi</small></h4>
+                                            <h4>Steak House<small>/Dhanmondi</small></h4>
 										</div>
 									</div>
 
