@@ -12,49 +12,46 @@
 	<head>
 		<!-- Required meta tags -->
         <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="icon" href="logo.png" type="image/png">
-		<title>YOU CHEF</title>
-		<!-- Bootstrap CSS -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<link rel="icon" href="logo.png" type="image/png">
+    	<title>YOU CHEF</title>
+    	<!-- Bootstrap CSS -->
 
 
-		<!-- <link rel="stylesheet" href="css/style.css"> -->
-		<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-		<link rel="stylesheet" href="css/animate.css">
+    	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    	<link rel="stylesheet" href="css/jquery.timepicker.css">
+    	<link rel="stylesheet" href="vendors/linericon/style.css">
+    	<link rel="stylesheet" href="css/font-awesome.min.css">
+    	<link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
+    	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    	<link rel="stylesheet" href="css/uikit.min.css">
+    	<link rel="stylesheet" href="css/slick.css">
+    	<link rel="stylesheet" href="css/slick-theme.css">
+    	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.png">
+    	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    	<link rel="stylesheet" href="css/animate.css">
+    	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    	<link rel="stylesheet" href="css/magnific-popup.css">
+    	<link rel="stylesheet" href="css/aos.css">
+    	<link rel="stylesheet" href="css/ionicons.min.css">
+    	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    	<link rel="stylesheet" href="css/jquery.timepicker.css">
+    	<link rel="stylesheet" href="css/flaticon.css">
+    	<link rel="stylesheet" href="css/icomoon.css">
 
-		<link rel="stylesheet" href="css/owl.carousel.min.css">
-		<link rel="stylesheet" href="css/owl.theme.default.min.css">
-		<link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
 
-		<link rel="stylesheet" href="css/aos.css">
-		<link rel="stylesheet" href="css/ionicons.min.css">
-
-		<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-		<link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
-		<link rel="stylesheet" href="css/flaticon.css">
-		<link rel="stylesheet" href="css/icomoon.css">
-
-
-		<link rel="stylesheet" href="vendors/linericon/style.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-		<link rel="stylesheet" href="vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css">
-		<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-		<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-		<link rel="stylesheet" href="css/uikit.min.css">
-		<link rel="stylesheet" href="css/slick.css">
-		<link rel="stylesheet" href="css/slick-theme.css">
-		<link rel="shortcut icon" type="image/x-icon" href="image/favicon.png">
-		<!-- main css -->
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/style1.css">
-
-		<link rel="stylesheet" href="css/pizza.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
-		<link rel="stylesheet" href="css/mycss.css">
+    	<link rel="stylesheet" href="css/pizza.css">
+    	<link rel="stylesheet" href="css/order.css">
+        <link rel="stylesheet" href="css/mycss.css">
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
 
 
 
@@ -789,7 +786,7 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
@@ -817,18 +814,35 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main1.js"></script>
+
+
 	<script src="js/main.js"></script>
+
 	<script src="js/custom.js"></script>
 	<script src="js/myjs.js"></script>
 
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<!-- contact js -->
-	<script src="js/jquery.form.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/contact.js"></script>
-	<script src="js/myjs.js"></script>
+
+ <script src="js/jquery-2.2.3.min.js"></script>
+  <script type='text/javascript' src="js/bootstrap.min.js"></script>
+  <script type='text/javascript' src="js/jquery.mycart.js"></script>
+  <script type="text/javascript" src="js/shopcart.js"></script>
 
 
 

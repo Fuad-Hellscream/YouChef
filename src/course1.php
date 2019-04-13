@@ -89,6 +89,7 @@
                            </span>
                          </div>
 
+
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class=" nav-item "><a class="nav-link" href="index.php">Home</a></li>
 
@@ -173,7 +174,130 @@
         <section class="accomodation_area " style="background: url(image/bg_4.jpg)no-repeat fixed;">
 
 
+        <div class="container-fluid">
+
+            <div class="row justify-content-center">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+
+                    <h2 class="mb-4">Italian Course</h2>
+                    <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+
+                    <div class="star">
+                        <span>Ratting</span>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o"></i></a>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
         </section>
+
+        <section class="ftco-section" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="pricing-entry d-flex ftco-animate">
+                            <div class="img" style="background-image: url(image/restaurent/1.jpg);"></div>
+                            <div class="desc pl-3">
+                                <div class="d-flex text align-items-center">
+                                    <h3><span>Pepperoni Pizza  </span></h3>
+                                </div>
+                                <div class="star">
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                </div>
+                                <div class="text-center">
+                                  <img id="blah" src="image/Profile/raihan.jpg" style="" class="rounded"  alt="..." width="304" height="236">
+                                </div>
+
+                                <div class="d-block">
+                                    <p>A small river named Duden flows by their place and supplies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-entry d-flex ftco-animate">
+                            <div class="img" style="background-image: url(image/restaurent/pizza-hut.png);"></div>
+                            <div class="desc pl-3">
+                                <div class="d-flex text align-items-center">
+                                    <h3><span>Pizza Hut  </span></h3>
+                                </div>
+                                <div class="star">
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                </div>
+
+                                <div class="d-block">
+                                    <p>A small river named Duden flows by their place and supplies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-entry d-flex ftco-animate">
+                            <div class="img" style="background-image: url(image/restaurent/Steak-House.jpg);"></div>
+                            <div class="desc pl-3">
+                                <div class="d-flex text align-items-center">
+                                    <h3><span>Steak House  </span></h3>
+                                </div>
+                                <div class="star">
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                </div>
+
+                                <div class="d-block">
+                                    <p>A small river named Duden flows by their place and supplies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-entry d-flex ftco-animate">
+                            <div class="img" style="background-image: url(image/restaurent/pasta_state.png);"></div>
+                            <div class="desc pl-3">
+                                <div class="d-flex text align-items-center">
+                                    <h3><span>Pasta State  </span></h3>
+                                </div>
+                                <div class="star">
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                </div>
+
+                                <div class="d-block">
+                                    <p>A small river named Duden flows by their place and supplies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+
+        </section>
+
+
+
+
+
         <!--================service are =================-->
 
         <section class="ftco-section ftco-services " style="background: url(image/bg_4.jpg)no-repeat fixed;">
@@ -710,7 +834,7 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
@@ -738,18 +862,35 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main1.js"></script>
+
+
 	<script src="js/main.js"></script>
+
 	<script src="js/custom.js"></script>
 	<script src="js/myjs.js"></script>
 
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<!-- contact js -->
-	<script src="js/jquery.form.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/contact.js"></script>
-	<script src="js/myjs.js"></script>
+
+ <script src="js/jquery-2.2.3.min.js"></script>
+  <script type='text/javascript' src="js/bootstrap.min.js"></script>
+  <script type='text/javascript' src="js/jquery.mycart.js"></script>
+  <script type="text/javascript" src="js/shopcart.js"></script>
 
 
 

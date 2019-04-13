@@ -437,7 +437,7 @@
                                         <div class="services-wrap d-flex">
                                             <a class="img order-lg-last" style="background-image: url(image/food/madame_lucy_burger.jpg);"></a>
                                             <div class="text p-4">
-                                                <h3>Madame Llucy Burger</h3>
+                                                <h3>Madame Llucy </h3>
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <form action="">
                                                   <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
@@ -504,7 +504,7 @@
                                         <div class="services-wrap d-flex">
                                             <a  class="img" style="background-image: url(image/food/Fried-Chicken-Biriyani.jpg);"></a>
                                             <div class="text p-4">
-                                                <h3>Fried Chicken Biriyani</h3>
+                                                <h3>Chicken Biriyani</h3>
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <form action="">
                                                   <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
@@ -525,7 +525,7 @@
                                         <div class="services-wrap d-flex">
                                             <a  class="img order-lg-last" style="background-image: url(image/food/Tort-Shokolad-Desert-Sadkoe.jpg);"></a>
                                             <div class="text p-4">
-                                                <h3>Tort Shokolad Desert Sadkoe</h3>
+                                                <h3> Desert Sadkoe</h3>
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
                                                 <form action="">
                                                   <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
@@ -565,7 +565,7 @@
                                         <div class="services-wrap d-flex">
                                             <a class="img order-lg-last" style="background-image: url(image/food/Pork-Bulgogi-Meatballs.jpg);"></a>
                                             <div class="text p-4">
-                                                <h3>Pork Bulgogi Meatballs</h3>
+                                                <h3>Bulgogi Meatballs</h3>
                                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                                                 <form action="">
                                                   <input checked type="radio" name="2" value="spicy"> Spicy&emsp;
