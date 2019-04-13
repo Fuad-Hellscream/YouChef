@@ -118,7 +118,7 @@
                         <li class="nav-item submenu dropdown">
                             <span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="course1.php">course 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="course1.php">ITALIAN COURSE</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">course 2</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">course 3</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">course 4</a></li>
@@ -239,17 +239,17 @@
 							<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
 
 
-								<p style="color:white">Name : </p>
+								<p style="color:white">Name : Raihan  Chowdhury  Hridoy </p>
 								<br><br>
-								<p style="color:white">Email : </p>
+								<p style="color:white">Email : raihanhridoy8@gmail.com </p>
 								<br><br>
-								<p style="color:white">Contact Number : </p>
+								<p style="color:white">Contact Number : 01957513214 </p>
 								<br><br>
-								<p style="color:white">Address : </p>
+								<p style="color:white">Address : Notunbazar ,Dhaka</p>
 								<br><br>
-								<p style="color:white">Gender : </p>
+								<p style="color:white">Gender : Male </p>
 								<br><br>
-								<p style="color:white">Birth Date : </p>
+								<p style="color:white">Birth Date : 12-02-1996 </p>
 								<br>
 
 

@@ -104,7 +104,7 @@
                             <li class="nav-item submenu dropdown">
                                 <span  class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</span>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="course1.php">course 1</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="course1.php">ITALIAN COURSE</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">course 2</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">course 3</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">course 4</a></li>
@@ -209,7 +209,57 @@
                 <div class="row">
                     <div class="col">
                         <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(image/restaurent/1.jpg);"></div>
+                            <!-- <div class="img" style="background-image: url(image/pizza-1.jpg);"></div> -->
+                            <div>
+                            <button class="buttonload  btn btn-warning btn-sm">
+                              <i class="fa fa-refresh fa-spin"></i>Incomplete
+                            </button>
+                            </div>
+                            <div class="desc pl-3">
+                                <div class="d-flex text align-items-center">
+                                    <h3><span>Pepperoni Pizza  </span></h3>
+                                </div>
+                                <div class="star">
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                </div>
+
+
+
+                                <div class="text-center">
+                                  <img id="blah" src="image/pizza-1.jpg" style="" class="rounded"  alt="..." width="304" height="236">
+                                  <br><br>
+
+                                    <!-- ADD FOOD TYPE FOR CART IN DATA SUMMARY -->
+
+                                  <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                      data-id="6" data-name="Pepperoni Pizza" data-summary="recipe" data-price="2.90" data-quantity="1"
+                                      data-image="image/pizza-1.jpg.jpg" style="color:black">Add
+                                  </button>
+                                  <button id="1" class="ml-2 btn btn-info btn-sm"  name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal"
+                                      style="color:black">Submit Video
+                                  </button>
+
+
+                                  <!-- <button type="button" class="btn btn-primary mr-2 " name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal">Submit Video</button> -->
+
+                                </div>
+
+                                <div class="d-block">
+                                    <p>A small river named Duden flows by their place and supplies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-entry d-flex ftco-animate">
+                            <!-- <div class="img" style="background-image: url(image/pizza-1.jpg);"></div> -->
+                            <div>
+                            <button class="buttonload  btn btn-warning btn-sm">
+                              <i class="fa fa-refresh fa-spin"></i>Incomplete
+                            </button>
+                            </div>
                             <div class="desc pl-3">
                                 <div class="d-flex text align-items-center">
                                     <h3><span>Pepperoni Pizza  </span></h3>
@@ -222,7 +272,22 @@
                                     <a href="#"><i class="fa fa-star-half-o"></i></a>
                                 </div>
                                 <div class="text-center">
-                                  <img id="blah" src="image/Profile/raihan.jpg" style="" class="rounded"  alt="..." width="304" height="236">
+                                  <img id="blah" src="image/pizza-1.jpg" style="" class="rounded"  alt="..." width="304" height="236">
+                                  <br><br>
+
+                                    <!-- ADD FOOD TYPE FOR CART IN DATA SUMMARY -->
+
+                                  <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                      data-id="6" data-name="Pepperoni Pizza" data-summary="recipe" data-price="2.90" data-quantity="1"
+                                      data-image="image/pizza-1.jpg.jpg" style="color:black">Add
+                                  </button>
+                                  <button id="1" class="ml-2 btn btn-info btn-sm"  name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal"
+                                      style="color:black">Submit Video
+                                  </button>
+
+
+                                  <!-- <button type="button" class="btn btn-primary mr-2 " name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal">Submit Video</button> -->
+
                                 </div>
 
                                 <div class="d-block">
@@ -231,10 +296,57 @@
                             </div>
                         </div>
                         <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(image/restaurent/pizza-hut.png);"></div>
+                            <!-- <div class="img" style="background-image: url(image/pizza-1.jpg);"></div> -->
+                            <div>
+                            <button class="buttonload  btn btn-warning btn-sm">
+                              <i class="fa fa-refresh fa-spin"></i>Incomplete
+                            </button>
+                            </div>
                             <div class="desc pl-3">
                                 <div class="d-flex text align-items-center">
-                                    <h3><span>Pizza Hut  </span></h3>
+                                    <h3><span>Pepperoni Pizza  </span></h3>
+                                </div>
+                                <div class="star">
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                </div>
+                                <div class="text-center">
+                                  <img id="blah" src="image/pizza-1.jpg" style="" class="rounded"  alt="..." width="304" height="236">
+                                  <br><br>
+
+                                    <!-- ADD FOOD TYPE FOR CART IN DATA SUMMARY -->
+
+                                  <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                      data-id="6" data-name="Pepperoni Pizza" data-summary="recipe" data-price="2.90" data-quantity="1"
+                                      data-image="image/pizza-1.jpg.jpg" style="color:black">Add
+                                  </button>
+                                  <button id="1" class="ml-2 btn btn-info btn-sm"  name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal"
+                                      style="color:black">Submit Video
+                                  </button>
+
+
+                                  <!-- <button type="button" class="btn btn-primary mr-2 " name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal">Submit Video</button> -->
+
+                                </div>
+
+                                <div class="d-block">
+                                    <p>A small river named Duden flows by their place and supplies</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-entry d-flex ftco-animate">
+                            <!-- <div class="img" style="background-image: url(image/pizza-1.jpg);"></div> -->
+                            <div>
+                            <button class="buttonload  btn btn-warning btn-sm">
+                              <i class="fa fa-refresh fa-spin"></i>Incomplete
+                            </button>
+                            </div>
+                            <div class="desc pl-3">
+                                <div class="d-flex text align-items-center">
+                                    <h3><span>Pepperoni Pizza  </span></h3>
                                 </div>
                                 <div class="star">
                                     <a href="#"><i class="fa fa-star"></i></a>
@@ -244,42 +356,23 @@
                                     <a href="#"><i class="fa fa-star-half-o"></i></a>
                                 </div>
 
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(image/restaurent/Steak-House.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Steak House  </span></h3>
-                                </div>
-                                <div class="star">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
-                                </div>
+                                <div class="text-center">
+                                  <img id="blah" src="image/pizza-1.jpg" style="" class="rounded"  alt="..." width="304" height="236">
+                                  <br><br>
 
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(image/restaurent/pasta_state.png);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Pasta State  </span></h3>
-                                </div>
-                                <div class="star">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
+                                    <!-- ADD FOOD TYPE FOR CART IN DATA SUMMARY -->
+
+                                  <button class="ml-2 btn btn-warning btn-sm my-cart-btn fa fa-shopping-cart"
+                                      data-id="6" data-name="Pepperoni Pizza" data-summary="recipe" data-price="2.90" data-quantity="1"
+                                      data-image="image/pizza-1.jpg.jpg" style="color:black">Add
+                                  </button>
+                                  <button id="1" class="ml-2 btn btn-info btn-sm"  name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal"
+                                      style="color:black">Submit Video
+                                  </button>
+
+
+                                  <!-- <button type="button" class="btn btn-primary mr-2 " name="subvideo"  value="subvideo" data-toggle="modal" data-target="#subvideo_modal">Submit Video</button> -->
+
                                 </div>
 
                                 <div class="d-block">
@@ -508,152 +601,7 @@
     <!-- Modal HTML -->
 
 
-     <!-- bg modal for  order-->
-     <div class="modal fade" id="ordermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
-       <div class="modal-dialog modal-lg" role="document" >
-         <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
-           <!-- <div class="modal-header"> -->
-             <h5 class="modal-title" id="exampleModalLabel"></h5>
-             <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
-               <span aria-hidden="true">&times;</span>
-             </button>
-           <!-- </div> -->
-           <div class="modal-body order" >
-               <div id="booking" class="section">
-           		<div class="section-center">
-           			<div class="container">
-           				<div class="row">
-                            <img src="logo.png" class="avatar">
-           					<div class="booking-form">
-           						<div class="form-header">
-           							<h1><br>Place Your Order</h1>
-           						</div>
-           						<form >
-           							<div class="form-group">
-           								<span class="form-label">Phone</span>
-           								<input class="form-control" required="1" type="number" placeholder="Enter your phone number">
-           							</div>
 
-           							<div class="form-group">
-           								<span class="form-label">Delivery  Location</span>
-           								<input class="form-control" type="text" required="1" placeholder="Enter ZIP/Location">
-           							</div>
-           							<div class="row">
-           								<div class="col-sm-6">
-           									<div class="form-group">
-           										<span class="form-label">Delivery Date</span>
-           										<input class="form-control" type="date" required>
-           									</div>
-           								</div>
-           								<div class="col-sm-3">
-           									<div class="row">
-           										<div class="col-sm-12">
-           											<div class="form-group">
-           												<span class="form-label">Order for people</span>
-           												<select class="form-control" >
-           													<option style="color:#000">1</option>
-           													<option style="color:#000">2</option>
-           													<option style="color:#000">3</option>
-
-           												</select>
-           												<span class="select-arrow"></span>
-           											</div>
-           										</div>
-
-           									</div>
-           								</div>
-                                        <div class="col-sm-3">
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <div class="form-group">
-                                                        <span class="form-label">Quantity</span>
-                                                        <select class="form-control" >
-                                                            <option style="color:#000">1</option>
-                                                            <option style="color:#000">2</option>
-                                                            <option style="color:#000">3</option>
-                                                            <option style="color:#000">4</option>
-                                                            <option style="color:#000">5</option>
-                                                            <option style="color:#000">6</option>
-                                                            <option style="color:#000">7</option>
-                                                            <option style="color:#000">8</option>
-                                                            <option style="color:#000">9</option>
-                                                            <option style="color:#000">10</option>
-                                                        </select>
-                                                        <span class="select-arrow"></span>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-           							</div>
-                                    <span class="form-label">Payment  Option</span>
-                                    <div class="form-group">
-
-                                        <div class="form-checkbox">
-                                            <div class="row">
-            									<label for="cash">
-            										<input checked type="radio" id="cash" name="payment">
-            										<span></span>Cash On Delivery
-            									</label>
-            									<label for="bkash">
-            										<input type="radio" id="bkash" name="payment">
-            										<span></span>BKash
-            									</label>
-
-
-                                            </div>
-
-                                            <div class="row">
-                                                <label for="dbbl">
-                                                    <input  type="radio" id="dbbl" name="payment">
-                                                    <span></span>DBBL Nexus
-                                                </label>
-                                                <label for="upay">
-                                                    <input type="radio" id="upay" name="payment">
-                                                    <span></span>Upay
-                                                </label>
-
-                                            </div>
-
-                                            <div class="row">
-                                                <label for="rocket">
-                                                    <input  type="radio" id="rocket" name="payment">
-                                                    <span></span>Rocket
-                                                </label>
-                                                <label for="master">
-                                                    <input type="radio" id="master" name="payment">
-                                                    <span></span>Master Card
-                                                </label>
-                                            </div>
-
-
-                                        </div>
-
-        							</div>
-
-
-           							<div class="form-btn">
-           								<button class="submit-btn">Confirm order</button>
-           							</div>
-           						</form>
-           					</div>
-           				</div>
-           			</div>
-           		</div>
-           	</div>
-         </div>
-
-
-        </div>
-           <div class="modal-footer">
-             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-           </div>
-         </div>
-      </div>
-
-
-
-     <!-- end bg modal -->
 
      <!-- login bg-modal (Login) -->
      <div class="modal fade" id="log_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000" >
@@ -824,7 +772,76 @@
 
 
     <!-- #########################    end  modal area  ################### -->
+    <!-- Submit Video -->
 
+    <div class="modal fade" id="subvideo_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"  style="color:#000" >
+     <div class="modal-dialog modal-lg" role="document" >
+       <div class="modal-content" style="background: url(bg_4.jpg)no-repeat fixed; border:none">
+         <!-- <div class="modal-header"> -->
+           <h5 class="modal-title" id="exampleModalLabel"></h5>
+           <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         <!-- </div> -->
+         <div class="modal-body order" >
+                      <div class="container">
+                          <div class="row">
+                              <img src="logo.png" class="avatar">
+                              <div class="booking-form">
+                                  <div class="form-header">
+                                      <h1><br>Submit Your Video</h1>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <section class="" style="background: url(image/bg_4.jpg)no-repeat fixed;">
+
+
+                          <form  action="" method="post">
+
+
+                                    <p style="color:white">Video Title</p>
+                                    <input type="text" style="width:50%;" name="name" required="1" placeholder="Enter Video Title"  style="color:white"><br><br>
+                                    <p style="color:white">Video URL</p>
+                                    <input type="url" style="width:50%;" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+
+
+                                      <p style="color:white">Video Description</p>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" required="1" name="message" id="message" rows="10" placeholder="Enter Video Description"></textarea>
+                                        </div>
+                                    </div>
+
+
+
+                                      <button type="submit" class="btn btn-warning logbtn" name="subrecipe" style="width:50%;" value="subrecipe">Submit Video</button>
+
+
+
+                           </form>
+
+
+                      </section>
+
+
+
+       </div>
+
+
+      </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+         </div>
+       </div>
+    </div>
+
+
+
+    <!-- end Submit video  -->
 
 
 
